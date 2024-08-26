@@ -60,16 +60,6 @@ period_data <- tibble::tribble(
   )
 
 
-# Define text -------------------------------------------------------------
-
-social <- nrBrand::social_caption(
-  twitter = NA,
-  bg_colour = bg_col,
-  icon_colour = highlight_col,
-  font_colour = text_col,
-  font_family = body_font
-)
-
 # Plot --------------------------------------------------------------------
 
 ggplot() +
@@ -77,8 +67,8 @@ ggplot() +
   geom_rect(
     data = period_data,
     mapping = aes(
-      xmin = 0, xmax = 100,
-      ymin = Start_Year, ymax = End_Year,
+      ymin = 0, ymax = 100,
+      xmin = Start_Year, xmax = End_Year,
       alpha = alpha
     ),
     fill = text_col
@@ -86,9 +76,9 @@ ggplot() +
   geom_text(
     data = period_data,
     mapping = aes(
-      x = mean(c(65, 100)),
-      y = 0.5 * (Start_Year + End_Year),
-      label = Period
+      y = mean(c(65, 100)),
+      x = 0.5 * (Start_Year + End_Year),
+      label = str_wrap(Period, 10)
     ),
     colour = text_col,
     family = title_font,
@@ -97,43 +87,43 @@ ggplot() +
   geom_text(
     data = period_data,
     mapping = aes(
-      x = 101,
-      y = Start_Year,
+      y = 101,
+      x = Start_Year,
       label = Start_Year
     ),
     colour = text_col,
     family = body_font,
     hjust = 0,
-    vjust = 1,
+    vjust = 0,
     size = 9
   ) +
   # Marriage data
   geom_segment(
     data = monarch_data,
     mapping = aes(
-      x = king_age, xend = consort_age,
-      y = year_of_marriage, yend = year_of_marriage
+      y = king_age, yend = consort_age,
+      x = year_of_marriage, xend = year_of_marriage
     ),
     colour = alpha(text_col, 0.5),
     linewidth = 0.7
   ) +
   geom_point(
     data = monarch_data,
-    mapping = aes(x = king_age, y = year_of_marriage),
+    mapping = aes(y = king_age, x = year_of_marriage),
     colour = highlight_col,
     size = 2,
     pch = 17
   ) +
   geom_point(
     data = monarch_data,
-    mapping = aes(x = consort_age, y = year_of_marriage),
+    mapping = aes(y = consort_age, x = year_of_marriage),
     colour = highlight_col2,
     size = 2
   ) +
   # Annotations
   geom_textbox(
     data = data.frame(
-      x = 7, y = 1000,
+      y = 7, x = 1000,
       label = "Henry the Young King (age 5) marries Margaret of France (age 3) in 1160."
     ),
     mapping = aes(x = x, y = y, label = label),
@@ -147,15 +137,15 @@ ggplot() +
     width = unit(0.75, "inch")
   ) +
   annotate(
-    "curve", x = 11, y = 1130, 
-    xend = 7, yend = 1160,
+    "curve", y = 11, x = 1130, 
+    yend = 7, xend = 1160,
     arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
   geom_textbox(
     data = data.frame(
-      x = 53, y = 1600,
+      y = 53, x = 1600,
       label = "The weddings of Henry the VIII."
     ),
     mapping = aes(x = x, y = y, label = label),
@@ -169,15 +159,15 @@ ggplot() +
     width = unit(1, "inch")
   ) +
   annotate(
-    "curve", x = 43, y = 1600, 
-    xend = 39, yend = 1580,
+    "curve", y = 43, x = 1600, 
+    yend = 39, xend = 1580,
     arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
   geom_textbox(
     data = data.frame(
-      x = 50, y = 1420,
+      y = 50, x = 1420,
       label = "40 year age gap between Edward I (age 60) and Margaret of France (age 20)."
     ),
     mapping = aes(x = x, y = y, label = label),
@@ -191,19 +181,19 @@ ggplot() +
     width = unit(1, "inch")
   ) +
   annotate(
-    "curve", x = 40, y = 1370, 
-    xend = 36, yend = 1330,
+    "curve", y = 40, x = 1370, 
+    yend = 36, xend = 1330,
     arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
   # Styling
-  scale_x_continuous(
+  scale_y_continuous(
     limits = c(0, 106),
     breaks = seq(0, 65, 5),
     minor_breaks = NULL
   ) +
-  scale_y_reverse(limits = c(2020, 802)) +
+  scale_x_continuous(limits = c(802, 2020)) +
   scale_alpha_identity() +
   coord_cartesian(expand = FALSE) +
   labs(
@@ -215,13 +205,13 @@ ggplot() +
     plot.margin = margin(5, 5, 5, 5),
     plot.background = element_rect(fill = bg_col, colour = bg_col),
     panel.background = element_rect(fill = bg_col, colour = bg_col),
-    axis.text.y = element_blank(),
-    panel.grid.major.y = element_blank(),
-    panel.grid.minor.y = element_blank(),
-    panel.grid.major.x = element_line(
+    axis.text.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_line(
       colour = alpha(text_col, 0.2),
       linewidth = 0.4
     )
   )
 
-ggsave("images/main-plot.png", width = 7, height = 9)
+ggsave("images/main-plot.png", width = 8, height = 6)
