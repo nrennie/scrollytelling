@@ -41,7 +41,8 @@ The Anglo-Saxon period was marked by the migration and settlement of Germanic tr
 
 :::{#cr-anglo-saxon .scale-to-fill}
 
-![](images/main-plot.png)
+![](images/anglo-saxons.png)
+
 
 :::
 
@@ -56,7 +57,7 @@ The House of Normandy began with William the Conqueror's victory at the Battle o
 
 :::{#cr-normandy .scale-to-fill}
 
-text goes here
+![](images/normandy.png)
 
 :::
 
@@ -70,7 +71,7 @@ The Angevins were a powerful dynasty that began with Henry II, who expanded Engl
 
 :::{#cr-angevins .scale-to-fill}
 
-text goes here
+![](images/angevins.png)
 
 :::
 
@@ -85,7 +86,7 @@ The Plantagenets were a powerful English dynasty known for their involvement in 
 
 :::{#cr-plantagenets .scale-to-fill}
 
-text goes here
+![](images/plantagenets.png)
 
 :::
 
@@ -99,7 +100,7 @@ The House of Lancaster was a branch of the Plantagenet dynasty that gained and l
 
 :::{#cr-lancaster .scale-to-fill}
 
-text goes here
+![](images/lancaster.png)
 
 :::
 
@@ -113,7 +114,7 @@ The House of York ruling during the latter part of the Wars of the Roses, saw th
 
 :::{#cr-york .scale-to-fill}
 
-text goes here
+![](images/york.png)
 
 :::
 
@@ -127,7 +128,7 @@ The House of Tudor oversaw the unification of England and Wales, with iconic mon
 
 :::{#cr-tudors .scale-to-fill}
 
-text goes here
+![](images/tudors.png)
 
 :::
 
@@ -141,7 +142,7 @@ The Stuart dynasty reigned in England and Scotland from 1603 to 1714, and the pe
 
 :::{#cr-stuart .scale-to-fill}
 
-text goes here
+![](images/stuart.png)
 
 :::
 
@@ -155,7 +156,7 @@ The Hanoverian period was characterised by the establishment of a constitutional
 
 :::{#cr-hanoverians .scale-to-fill}
 
-text goes here
+![](images/hanoverians.png)
 
 :::
 
@@ -169,7 +170,7 @@ The House of Saxe-Coburg and Gotha was a German dynasty that saw the reign of Ki
 
 :::{#cr-saxe-coburg .scale-to-fill}
 
-text goes here
+![](images/saxe-coburg.png)
 
 :::
 
@@ -184,7 +185,7 @@ The House of Windsor, established in 1917 by King George V, has been the reignin
 
 :::{#cr-windsor .scale-to-fill}
 
-text goes here
+![](images/windsor.png)
 
 :::
 

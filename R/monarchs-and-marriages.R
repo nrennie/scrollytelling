@@ -141,9 +141,10 @@ ggplot() +
     width = unit(1.5, "inch")
   ) +
   annotate(
-    "curve", y = 11, x = 1130, 
+    "curve",
+    y = 11, x = 1130,
     yend = 7, xend = 1160,
-    arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
+    arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
@@ -163,9 +164,10 @@ ggplot() +
     width = unit(1, "inch")
   ) +
   annotate(
-    "curve", y = 43, x = 1600, 
+    "curve",
+    y = 43, x = 1600,
     yend = 39, xend = 1580,
-    arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
+    arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
@@ -185,9 +187,10 @@ ggplot() +
     width = unit(1, "inch")
   ) +
   annotate(
-    "curve", y = 37, x = 1370, 
+    "curve",
+    y = 37, x = 1370,
     yend = 33, xend = 1330,
-    arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
+    arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
   ) +
@@ -223,5 +226,155 @@ ggsave("images/main-plot.png", width = 8, height = 6)
 
 # Period plot function ----------------------------------------------------
 
+period_plot <- function(period) {
+  period_subset <- period_data |>
+    filter(Period == period)
+  monarch_subset <- monarch_data |>
+    filter(
+      year_of_marriage >= period_subset$Start_Year,
+      year_of_marriage <= period_subset$End_Year
+    )
+  ggplot() +
+    # Period data
+    geom_rect(
+      data = period_subset,
+      mapping = aes(
+        xmin = 0, xmax = 65,
+        ymin = Start_Year, ymax = End_Year
+      ),
+      fill = text_col,
+      alpha = 0.1
+    ) +
+    # Marriage data
+    geom_segment(
+      data = monarch_subset,
+      mapping = aes(
+        x = king_age, xend = consort_age,
+        y = year_of_marriage, yend = year_of_marriage
+      ),
+      colour = alpha(text_col, 0.5),
+      linewidth = 0.7
+    ) +
+    # Monarch
+    geom_point(
+      data = monarch_subset,
+      mapping = aes(x = king_age, y = year_of_marriage),
+      colour = highlight_col,
+      size = 2,
+      pch = 17
+    ) +
+    geom_textbox(
+      data = monarch_subset,
+      mapping = aes(
+        x = king_age, y = year_of_marriage, label = king_name,
+        hjust = dplyr::case_when(
+          consort_age < king_age ~ 0,
+          TRUE ~ 1
+        ),
+        halign = dplyr::case_when(
+          consort_age < king_age ~ 0,
+          TRUE ~ 1
+        )
+      ),
+      family = body_font,
+      size = 10,
+      colour = text_col,
+      fill = "transparent",
+      box.colour = "transparent"
+    ) +
+    # Consort
+    geom_point(
+      data = monarch_subset,
+      mapping = aes(x = consort_age, y = year_of_marriage),
+      colour = highlight_col2,
+      size = 2
+    ) +
+    geom_textbox(
+      data = monarch_subset,
+      mapping = aes(
+        x = consort_age, y = year_of_marriage, label = consort_name,
+        hjust = dplyr::case_when(
+          consort_age < king_age ~ 1,
+          TRUE ~ 0
+        ),
+        halign = dplyr::case_when(
+          consort_age < king_age ~ 1,
+          TRUE ~ 0
+        )
+      ),
+      family = body_font,
+      size = 10,
+      colour = text_col,
+      fill = "transparent",
+      box.colour = "transparent"
+    ) +
+    # Styling
+    scale_x_continuous(
+      limits = c(0, 65),
+      breaks = seq(0, 65, 5),
+      minor_breaks = NULL
+    ) +
+    scale_y_reverse(limits = c(period_subset$End_Year, period_subset$Start_Year)) +
+    scale_alpha_identity() +
+    coord_cartesian(expand = FALSE) +
+    labs(
+      x = "Age at marriage",
+      y = NULL,
+      title = period
+    ) +
+    theme_minimal(base_size = 26, base_family = body_font) +
+    theme(
+      plot.margin = margin(5, 5, 5, 5),
+      plot.background = element_rect(fill = bg_col, colour = bg_col),
+      panel.background = element_rect(fill = bg_col, colour = bg_col),
+      panel.grid.major.y = element_blank(),
+      panel.grid.minor.y = element_blank(),
+      panel.grid.major.x = element_line(
+        colour = alpha(text_col, 0.2),
+        linewidth = 0.4
+      ),
+      plot.title = element_textbox_simple(
+        colour = text_col,
+        hjust = 0,
+        halign = 0,
+        margin = margin(b = 10, t = 10),
+        lineheight = 0.5,
+        family = title_font,
+        size = rel(2),
+        face = "bold"
+      )
+    )
+}
 
-ggsave("images/main-plot.png", width = 8, height = 6)
+period_plot("Anglo-Saxon Period")
+ggsave("images/anglo-saxons.png", width = 8, height = 6)
+
+period_plot("House of Normandy")
+ggsave("images/normandy.png", width = 8, height = 6)
+
+period_plot("Angevins")
+ggsave("images/angevins.png", width = 8, height = 6)
+
+period_plot("Plantagenets")
+ggsave("images/plantagenets.png", width = 8, height = 6)
+
+period_plot("House of Lancaster")
+ggsave("images/lancaster.png", width = 8, height = 6)
+
+period_plot("House of York")
+ggsave("images/york.png", width = 8, height = 6)
+
+period_plot("Tudors")
+ggsave("images/tudors.png", width = 8, height = 6)
+
+period_plot("Stuart Period")
+ggsave("images/stuart.png", width = 8, height = 6)
+
+period_plot("Hanoverians")
+ggsave("images/hanoverians.png", width = 8, height = 6)
+
+period_plot("House of Saxe-Coburg and Gotha")
+ggsave("images/saxe-coburg.png", width = 8, height = 6)
+
+period_plot("House of Windsor")
+ggsave("images/windsor.png", width = 8, height = 6)
