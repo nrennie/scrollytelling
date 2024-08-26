@@ -39,9 +39,9 @@ The Anglo-Saxon period was marked by the migration and settlement of Germanic tr
 
 :::
 
-:::{#cr-anglo-saxon}
+:::{#cr-anglo-saxon .scale-to-fill}
 
-anglo saxon
+![](images/main-plot.png)
 
 :::
 
@@ -54,7 +54,7 @@ The House of Normandy began with William the Conqueror's victory at the Battle o
 
 :::
 
-:::{#cr-normandy}
+:::{#cr-normandy .scale-to-fill}
 
 text goes here
 
@@ -68,7 +68,7 @@ text goes here
 The Angevins were a powerful dynasty that began with Henry II, who expanded English territories through marriage and conquest, forming the vast Angevin Empire. 
 :::
 
-:::{#cr-angevins}
+:::{#cr-angevins .scale-to-fill}
 
 text goes here
 
@@ -83,7 +83,7 @@ The Plantagenets were a powerful English dynasty known for their involvement in 
 
 :::
 
-:::{#cr-plantagenets}
+:::{#cr-plantagenets .scale-to-fill}
 
 text goes here
 
@@ -97,7 +97,7 @@ text goes here
 The House of Lancaster was a branch of the Plantagenet dynasty that gained and lost the English throne during the Wars of the Roses, with its most prominent king, Henry V, achieving military victories in the Hundred Years' War before the dynasty was ultimately defeated by the House of York.
 :::
 
-:::{#cr-lancaster}
+:::{#cr-lancaster .scale-to-fill}
 
 text goes here
 
@@ -111,7 +111,7 @@ text goes here
 The House of York ruling during the latter part of the Wars of the Roses, saw the reigns of Edward IV and Richard III, ultimately losing the throne to the Tudors at the Battle of Bosworth, marking the end of the Plantagenet line.
 :::
 
-:::{#cr-york}
+:::{#cr-york .scale-to-fill}
 
 text goes here
 
@@ -125,7 +125,7 @@ text goes here
 The House of Tudor oversaw the unification of England and Wales, with iconic monarchs like Henry VIII and Elizabeth I shaping the nation's cultural and political landscape.
 :::
 
-:::{#cr-tudors}
+:::{#cr-tudors .scale-to-fill}
 
 text goes here
 
@@ -139,7 +139,7 @@ text goes here
 The Stuart dynasty reigned in England and Scotland from 1603 to 1714, and the period was marked by significant events such as the execution of Charles I.
 :::
 
-:::{#cr-stuart}
+:::{#cr-stuart .scale-to-fill}
 
 text goes here
 
@@ -153,7 +153,7 @@ text goes here
 The Hanoverian period was characterised by the establishment of a constitutional monarchy, the expansion of the British Empire, and significant industrial, political, and social changes, with notable monarchs like George III and Queen Victoria.
 :::
 
-:::{#cr-hanoverians}
+:::{#cr-hanoverians .scale-to-fill}
 
 text goes here
 
@@ -167,7 +167,7 @@ text goes here
 The House of Saxe-Coburg and Gotha was a German dynasty that saw the reign of King Edward VII and his successors, but was renamed the House of Windsor during World War I due to anti-German sentiment.
 :::
 
-:::{#cr-saxe-coburg}
+:::{#cr-saxe-coburg .scale-to-fill}
 
 text goes here
 
@@ -182,13 +182,35 @@ The House of Windsor, established in 1917 by King George V, has been the reignin
 
 :::
 
-:::{#cr-windsor}
+:::{#cr-windsor .scale-to-fill}
 
 text goes here
 
 :::
 
-<br>
+
+:::{focus-on="cr-data"}
+
 **Data**: [ianVisits](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) and [Wikipedia](https://en.wikipedia.org/wiki/History_of_monarchy_in_the_United_Kingdom)
+
+<br>
+
+{{< fa brands linkedin >}} [nicola-rennie](https://www.linkedin.com/in/nicola-rennie/)
+
+{{< fa brands mastodon >}} [fosstodon.org/@nrennie](https://fosstodon.org/@nrennie)
+
+{{< fa brands bluesky >}} [nrennie](https://bsky.app/profile/nrennie.bsky.social)
+
+{{< fa brands github >}} [nrennie](https://github.com/nrennie)
+
+
+:::
+
+:::{#cr-data .scale-to-fill}
+
+![](images/main-plot.png)
+
+:::
+
 
 :::

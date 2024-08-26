@@ -219,3 +219,9 @@ ggplot() +
   )
 
 ggsave("images/main-plot.png", width = 8, height = 6)
+
+
+# Period plot function ----------------------------------------------------
+
+
+ggsave("images/main-plot.png", width = 8, height = 6)
