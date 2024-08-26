@@ -14,14 +14,8 @@ format:
 # English Monarchs and Marriages
 
 By Nicola Rennie
-:::
-
-:::{#cr-main-plot}
 
 :::
-
-
-:::{focus-on="cr-main-plot2"}
 
 Data from [ianvisits.co.uk](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) lists the ages of [**monarchs**]{style="color:#508080;"} and their [**consorts**]{style="color:#E30B5C;"} at the time of marriage. Monarchs (who have historically mostly been male) are typically older than their consorts and *'it was not that uncommon for older monarchs to be married off to quite young women if needing a replacement queen after the previous model had been inconvenient enough to drop dead'*. 
 
@@ -30,9 +24,7 @@ Data from [ianvisits.co.uk](https://www.ianvisits.co.uk/articles/a-list-of-monar
 year of marriage are known are included here. A further 27 marriages are included 
 in the full data where the dates or ages are unknown or uncertain.
 
-:::
-
-:::{#cr-main-plot2 .scale-to-fill}
+:::{#cr-main-plot .scale-to-fill}
 
 ![](images/main-plot.png)
 
@@ -49,10 +41,9 @@ The Anglo-Saxon period was marked by the migration and settlement of Germanic tr
 
 :::{#cr-anglo-saxon}
 
-text goes here
+anglo saxon
 
 :::
-
 
 :::{focus-on="cr-normandy"}
 ## House of Normandy
@@ -189,8 +180,6 @@ text goes here
 
 The House of Windsor, established in 1917 by King George V, has been the reigning British royal family through major 20th and 21st-century events, including two World Wars.
 
-<br>
-**Data**: [ianVisits](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) and [Wikipedia](https://en.wikipedia.org/wiki/History_of_monarchy_in_the_United_Kingdom)
 :::
 
 :::{#cr-windsor}
@@ -198,5 +187,8 @@ The House of Windsor, established in 1917 by King George V, has been the reignin
 text goes here
 
 :::
+
+<br>
+**Data**: [ianVisits](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) and [Wikipedia](https://en.wikipedia.org/wiki/History_of_monarchy_in_the_United_Kingdom)
 
 :::
