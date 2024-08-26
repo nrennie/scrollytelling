@@ -6,6 +6,7 @@ format:
     theme: [default, style.scss]
     remove-header-space: true
     debug-mode: false
+    embed-resources: true
 ---
 
 :::{.cr-section}
