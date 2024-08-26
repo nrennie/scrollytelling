@@ -5,3 +5,5 @@ Source code for scrollytelling visualisations, built with [Quarto](https://quart
 ## Monarchs and Marriages
 
 ![](images/monarchs.png)
+
+![](images/monarchs.gif)
