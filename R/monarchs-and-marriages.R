@@ -56,7 +56,8 @@ period_data <- tibble::tribble(
   "House of Windsor", 1917, 2020
 ) |>
   mutate(
-    alpha = rep(c(0.1, 0.2), 6)[1:11]
+    alpha = rep(c(0.1, 0.2), 6)[1:11],
+    y_pos = rep(c(0.1, 0.2), 6)[1:11]
   )
 
 
@@ -78,11 +79,13 @@ ggplot() +
     mapping = aes(
       y = mean(c(65, 100)),
       x = 0.5 * (Start_Year + End_Year),
-      label = str_wrap(Period, 10)
+      label = Period
     ),
     colour = text_col,
     family = title_font,
-    size = 9
+    lineheight = 0.5,
+    size = 9,
+    angle = 90
   ) +
   geom_text(
     data = period_data,
@@ -94,8 +97,9 @@ ggplot() +
     colour = text_col,
     family = body_font,
     hjust = 0,
-    vjust = 0,
-    size = 9
+    vjust = 1,
+    size = 9,
+    angle = 90
   ) +
   # Marriage data
   geom_segment(
@@ -134,7 +138,7 @@ ggplot() +
     halign = 0.5,
     lineheight = 0.5,
     fill = alpha(bg_col, 0.3),
-    width = unit(0.75, "inch")
+    width = unit(1.5, "inch")
   ) +
   annotate(
     "curve", y = 11, x = 1130, 
@@ -145,7 +149,7 @@ ggplot() +
   ) +
   geom_textbox(
     data = data.frame(
-      y = 53, x = 1600,
+      y = 52, x = 1650,
       label = "The weddings of Henry the VIII."
     ),
     mapping = aes(x = x, y = y, label = label),
@@ -181,8 +185,8 @@ ggplot() +
     width = unit(1, "inch")
   ) +
   annotate(
-    "curve", y = 40, x = 1370, 
-    yend = 36, xend = 1330,
+    "curve", y = 37, x = 1370, 
+    yend = 33, xend = 1330,
     arrow = arrow(length = unit(0.2,"cm"), type = "closed"),
     colour = text_col,
     curvature = -0.5
