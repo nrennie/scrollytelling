@@ -227,6 +227,7 @@ ggsave("images/main-plot.png", width = 8, height = 6)
 # Period plot function ----------------------------------------------------
 
 period_plot <- function(period) {
+  # subset data
   period_subset <- period_data |>
     filter(Period == period)
   monarch_subset <- monarch_data |>
@@ -234,6 +235,24 @@ period_plot <- function(period) {
       year_of_marriage >= period_subset$Start_Year,
       year_of_marriage <= period_subset$End_Year
     )
+  # extra processing for labels
+  if (period == "Angevins") {
+    monarch_subset <- monarch_subset |>
+      mutate(consort_name = if_else(
+        consort_age < 5,
+        str_replace(str_wrap(consort_name, 5), "\n", "<br>"),
+        consort_name
+      ))
+  }
+  if (period == "Tudors") {
+    monarch_subset <- monarch_subset |>
+      mutate(consort_name = if_else(
+        consort_name == "Anne of Cleves",
+        "Anne of Cleves / Catherine Howard",
+        consort_name
+      )) |> 
+      filter(consort_name != "Catherine Howard")
+  }
   ggplot() +
     # Period data
     geom_rect(
@@ -277,8 +296,9 @@ period_plot <- function(period) {
         )
       ),
       family = body_font,
-      size = 10,
+      size = 9,
       colour = text_col,
+      lineheight = 0.5,
       fill = "transparent",
       box.colour = "transparent"
     ) +
@@ -303,7 +323,8 @@ period_plot <- function(period) {
         )
       ),
       family = body_font,
-      size = 10,
+      size = 9,
+      lineheight = 0.5,
       colour = text_col,
       fill = "transparent",
       box.colour = "transparent"
@@ -316,7 +337,7 @@ period_plot <- function(period) {
     ) +
     scale_y_reverse(limits = c(period_subset$End_Year, period_subset$Start_Year)) +
     scale_alpha_identity() +
-    coord_cartesian(expand = FALSE) +
+    coord_cartesian(expand = FALSE, clip = "off") +
     labs(
       x = "Age at marriage",
       y = NULL,
@@ -355,7 +376,7 @@ ggsave("images/normandy.png", width = 8, height = 6)
 period_plot("Angevins")
 ggsave("images/angevins.png", width = 8, height = 6)
 
-period_plot("Plantagenets")
+period_plot("Plantagenets") # fix overlap
 ggsave("images/plantagenets.png", width = 8, height = 6)
 
 period_plot("House of Lancaster")
@@ -367,7 +388,7 @@ ggsave("images/york.png", width = 8, height = 6)
 period_plot("Tudors")
 ggsave("images/tudors.png", width = 8, height = 6)
 
-period_plot("Stuart Period")
+period_plot("Stuart Period") # fix overlap
 ggsave("images/stuart.png", width = 8, height = 6)
 
 period_plot("Hanoverians")
