@@ -8,7 +8,7 @@ execute:
   eval: true
   echo: false
   warning: false
-freeze: auto
+freeze: true
 format:
   closeread-html:
     css: who-am-i.css
