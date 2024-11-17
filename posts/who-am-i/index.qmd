@@ -13,10 +13,11 @@ format:
   closeread-html:
     css: who-am-i.css
     cr-style:
-      narrative-background-color-overlay: "#2F4F4F"
-      narrative-text-color-overlay: "#F0F5F5"
+      narrative-background-color-sidebar: "#2F4F4F"
+      narrative-text-color-sidebar: "#FFFFFF"
       section-background-color: "#FFFFFF"
       narrative-font-size: 14pt
+      narrative-font-family: Ubuntu
     remove-header-space: true
     debug-mode: false
     embed-resources: true

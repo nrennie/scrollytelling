@@ -13,10 +13,11 @@ format:
   closeread-html:
     css: monarchs.css
     cr-style:
-      narrative-background-color-overlay: "#2F4F4F"
-      narrative-text-color-overlay: "#F0F5F5"
-      section-background-color: "#F0F5F5"
+      narrative-background-color-sidebar: "#2F4F4F"
+      narrative-text-color-sidebar: "#FFFFFF"
+      section-background-color: "#FFFFFF"
       narrative-font-size: 14pt
+      narrative-font-family: Ubuntu
     remove-header-space: true
     debug-mode: false
     embed-resources: true
@@ -54,6 +55,7 @@ in the full data where the dates or ages are unknown or uncertain.
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 main_plot()
 ```
 
@@ -75,6 +77,7 @@ The Anglo-Saxon period was marked by the migration and settlement of Germanic tr
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Anglo-Saxon Period")
 ```
 
@@ -96,6 +99,7 @@ The House of Normandy began with William the Conqueror's victory at the Battle o
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("House of Normandy")
 ```
 
@@ -116,6 +120,7 @@ The Angevins were a powerful dynasty that began with Henry II, who expanded Engl
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Angevins")
 ```
 
@@ -137,6 +142,7 @@ The Plantagenets were a powerful English dynasty known for their involvement in 
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Plantagenets")
 ```
 
@@ -157,6 +163,7 @@ The House of Lancaster was a branch of the Plantagenet dynasty that gained and l
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("House of Lancaster")
 ```
 
@@ -177,6 +184,7 @@ The House of York ruling during the latter part of the Wars of the Roses, saw th
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("House of York")
 ```
 
@@ -197,6 +205,7 @@ The House of Tudor oversaw the unification of England and Wales, with iconic mon
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Tudors")
 ```
 
@@ -217,6 +226,7 @@ The Stuart dynasty reigned in England and Scotland from 1603 to 1714, and the pe
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Stuart Period")
 ```
 
@@ -237,6 +247,7 @@ The Hanoverian period was characterised by the establishment of a constitutional
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("Hanoverians")
 ```
 
@@ -257,6 +268,7 @@ The House of Saxe-Coburg and Gotha was a German dynasty that saw the reign of Ki
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("House of Saxe-Coburg and Gotha")
 ```
 
@@ -278,13 +290,14 @@ The House of Windsor, established in 1917 by King George V, has been the reignin
 #| fig-width: 8
 #| fig-height: 6
 #| fig-align: center
+#| fig-dpi: 150
 period_plot("House of Windsor")
 ```
 
 :::
 
 
-:::{focus-on="cr-data"}
+:::{focus-on="cr-main-plot"}
 
 **Data**: [ianVisits](https://www.ianvisits.co.uk/articles/a-list-of-monarchs-by-marriage-6857/) and [Wikipedia](https://en.wikipedia.org/wiki/History_of_monarchy_in_the_United_Kingdom)
 
@@ -300,18 +313,5 @@ period_plot("House of Windsor")
 
 
 :::
-
-:::{#cr-data .scale-to-fill}
-
-```{r}
-#| label: data
-#| fig-width: 8
-#| fig-height: 6
-#| fig-align: center
-main_plot()
-```
-
-:::
-
 
 :::
