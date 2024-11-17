@@ -28,23 +28,20 @@ $nr-dark: #2F4F4F;
     src: url('fonts/Commissioner-Italic.ttf') format('truetype');
 }
 
-body {
-  font-family: $font-family-sans-serif !important;
+#quarto-document-content {
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 13pt
+  
+  h1 {
+    font-family: Fraunces, "Times New Roman", Times, serif;
+    font-weight: 500;
+    line-height: 1;
+    color: $nr-dark !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font !important;
+  }
+
 }
 
-main#quarto-document-content.content.column-page {
-  font-family: $font-family-sans-serif !important;
-  font-size: 12pt !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font !important;
-}
-
-h3.listing-title {
-  font-family: $heading-font !important;
-}
-
-#quarto-document-content h1, #quarto-document-content .h1 {
-  color: $nr-dark !important;
-}
