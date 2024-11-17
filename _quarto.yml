@@ -10,9 +10,8 @@ website:
 
 format:
   html:
-    theme:
-      - custom.scss
-    fontsize: 12pt
-    mainfont: Commissioner
     page-layout: full
+    theme:
+      - cosmo.scss
+      - custom.scss
 

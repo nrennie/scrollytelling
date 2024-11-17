@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "posts/who-am-i/index.html",
+    "href": "posts/who-am-i/index.html",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Lecturer in Health Data Science \nJoined CHICAS in April 2023, after working in data science consultancy and doing a PhD in Statistics and Operational Research.\n\n\n\n\n\nCollaborating with local NHS Trusts \non data science and data engineering projects, making use of routinely collected healthcare data to improve health outcomes.\n\n\n\n\n\nPromoting statistics as a tool for improvement \nby developing novel methodology to solve problems, working with local schools to encourage young people to choose careers in data, and researching more effective ways of teaching statistics.\n\n\n\n\n\nBuilding and teaching open source software \nsuch as R and Python, to improve research reproducibility and building communities to develop skills, especially in under-represented groups.\n\n\n\n\n\nCommunicating data more effectively \nby developing Best Practices for Data Visualisation guidance for Royal Statistical Society publications, and helping authors to implement best practices.\n\n\n\n\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
+  },
+  {
+    "objectID": "posts/who-am-i/index.html#dr-nicola-rennie",
+    "href": "posts/who-am-i/index.html#dr-nicola-rennie",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Lecturer in Health Data Science \nJoined CHICAS in April 2023, after working in data science consultancy and doing a PhD in Statistics and Operational Research."
+  },
+  {
+    "objectID": "posts/who-am-i/index.html#nhs-data",
+    "href": "posts/who-am-i/index.html#nhs-data",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Collaborating with local NHS Trusts \non data science and data engineering projects, making use of routinely collected healthcare data to improve health outcomes."
+  },
+  {
+    "objectID": "posts/who-am-i/index.html#statistics",
+    "href": "posts/who-am-i/index.html#statistics",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Promoting statistics as a tool for improvement \nby developing novel methodology to solve problems, working with local schools to encourage young people to choose careers in data, and researching more effective ways of teaching statistics."
+  },
+  {
+    "objectID": "posts/who-am-i/index.html#research-software-engineering",
+    "href": "posts/who-am-i/index.html#research-software-engineering",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Building and teaching open source software \nsuch as R and Python, to improve research reproducibility and building communities to develop skills, especially in under-represented groups."
+  },
+  {
+    "objectID": "posts/who-am-i/index.html#data-visualisation",
+    "href": "posts/who-am-i/index.html#data-visualisation",
+    "title": "Who am I?",
+    "section": "",
+    "text": "Communicating data more effectively \nby developing Best Practices for Data Visualisation guidance for Royal Statistical Society publications, and helping authors to implement best practices."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scrollytelling",
+    "section": "",
+    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\n\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/monarchs/index.html",
     "href": "posts/monarchs/index.html",
     "title": "English Monarchs and Marriages",
@@ -82,12 +131,5 @@
     "title": "English Monarchs and Marriages",
     "section": "",
     "text": "1917 - Present\nThe House of Windsor, established in 1917 by King George V, has been the reigning British royal family through major 20th and 21st-century events, including two World Wars."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scrollytelling",
-    "section": "",
-    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\n\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
