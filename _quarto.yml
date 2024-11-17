@@ -1,2 +1,18 @@
 project:
+  type: website
   output-dir: docs
+
+website:
+  title: "Scrollytelling"
+  image: preview.png
+  twitter-card: true
+  open-graph: true
+
+format:
+  html:
+    theme:
+      - custom.scss
+    fontsize: 12pt
+    mainfont: Commissioner
+    page-layout: full
+

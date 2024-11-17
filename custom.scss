@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+// font family
+$font-family-sans-serif: 'Commissioner', Arial, sans-serif !default;
+$heading-font: 'Fraunces', Times New Roman, serif  !default;
+
+// colors
+$code-color: #508080 !default;
+$link-color: #508080;
+$body-bg: #F0F5F5;
+$body-color: #2F4F4F;
+
+$nr-contrast: #E30B5C;
+$nr-light: #F0F5F5;
+$nr-mid: #508080;
+$nr-dark: #2F4F4F;
+
+/*-- scss:rules --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+@font-face {
+    font-display: swap;
+    font-family: 'Commissioner';
+    font-style: italic;
+    src: url('fonts/Commissioner-Italic.ttf') format('truetype');
+}
+
+body {
+  font-family: $font-family-sans-serif !important;
+}
+
+main#quarto-document-content.content.column-page {
+  font-family: $font-family-sans-serif !important;
+  font-size: 12pt !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font !important;
+}
+
+h3.listing-title {
+  font-family: $heading-font !important;
+}
+
+#quarto-document-content h1, #quarto-document-content .h1 {
+  color: $nr-dark !important;
+}

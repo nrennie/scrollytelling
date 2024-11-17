@@ -1,9 +1,9 @@
 # Scrollytelling
 
-Source code for scrollytelling visualisations, built with [Quarto](https://quarto.org/) and [closeread](https://closeread.netlify.app/).
+View all stories: [nrennie.rbind.io/scrollytelling](https://nrennie.rbind.io/scrollytelling/)
 
 ## Monarchs and Marriages
 
-![](images/monarchs.png)
+![](posts/monarchs/images/featured.png)
 
-![](images/monarchs.gif)
+![](posts/monarchs/images/monarchs.gif)
