@@ -1,6 +1,6 @@
 ---
 title: "English Monarchs and Marriages"
-subtitle: "Scroll through time to learn about different periods of England's history, and the marriages and monarchs of each period."
+description: "Scroll through time to learn about different periods of England's history, and the marriages and monarchs of each period."
 author: Nicola Rennie
 date: "2024/08/26"
 image: images/featured.png
@@ -16,7 +16,7 @@ format:
       narrative-background-color-overlay: "#2F4F4F"
       narrative-text-color-overlay: "#F0F5F5"
       section-background-color: "#F0F5F5"
-      narrative-font-size: 15pt
+      narrative-font-size: 14pt
     remove-header-space: true
     debug-mode: false
     embed-resources: true

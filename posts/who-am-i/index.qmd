@@ -1,0 +1,97 @@
+---
+title: "Who am I?"
+subtitle: "Showcasing the zoom features of Closeread to create slides for a lightning talk about research."
+author: Nicola Rennie
+date: "2024/10/22"
+image: images/featured.png
+execute: 
+  eval: true
+  echo: false
+  warning: false
+freeze: auto
+format:
+  closeread-html:
+    css: who-am-i.css
+    cr-style:
+      narrative-background-color-overlay: "#2F4F4F"
+      narrative-text-color-overlay: "#F0F5F5"
+      section-background-color: "#FFFFFF"
+      narrative-font-size: 14pt
+    remove-header-space: true
+    debug-mode: false
+    embed-resources: true
+---
+:::{.cr-section}
+:::{focus-on="cr-open"}
+# What connects NHS data, statistics, research software engineering, and data visualisation?
+
+:::
+
+:::{#cr-open .scale-to-fill}
+
+![](images/main_init.png)
+
+:::
+
+:::{focus-on="cr-nicola"}
+## Dr Nicola Rennie
+
+*Lecturer in Health Data Science* <br><br>
+
+Joined CHICAS in April 2023, after working in data science consultancy and doing a PhD in Statistics and Operational Research.
+:::
+
+:::{#cr-nicola .scale-to-fill}
+![](images/main.png)
+:::
+
+:::{focus-on="cr-nicola" pan-to="62%,65%" scale-by="2.3"}
+## NHS Data
+
+*Collaborating with local NHS Trusts* <br><br>
+
+on data science and data engineering projects, making use of routinely collected healthcare data to improve health outcomes.
+:::
+
+:::{focus-on="cr-nicola" pan-to="-62%,65%" scale-by="2.3"}
+## Statistics
+
+*Promoting statistics as a tool for improvement* <br><br>
+
+by developing novel methodology to solve problems, working with local schools to encourage young people to choose careers in data, and researching more effective ways of teaching statistics.
+:::
+
+:::{focus-on="cr-nicola" pan-to="-62%,-65%" scale-by="2.3"}
+## Research Software Engineering
+
+*Building and teaching open source software* <br><br>
+
+such as R and Python, to improve research reproducibility and building communities to develop skills, especially in under-represented groups.
+:::
+
+:::{focus-on="cr-nicola" pan-to="62%,-65%" scale-by="2.3"}
+## Data visualisation
+
+*Communicating data more effectively* <br><br>
+
+by developing *Best Practices for Data Visualisation* guidance for Royal Statistical Society publications, and helping authors to implement best practices.
+:::
+
+:::{focus-on="cr-nicola"}
+
+<br>
+
+{{< fa globe >}} [nrennie.rbind.io](https://nrennie.rbind.io/)
+
+<br>
+
+{{< fa brands linkedin >}} [nicola-rennie](https://www.linkedin.com/in/nicola-rennie/)
+
+<br>
+
+{{< fa brands github >}} [nrennie](https://github.com/nrennie)
+
+
+:::
+
+:::
