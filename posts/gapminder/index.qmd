@@ -1,0 +1,58 @@
+---
+title: "Gapminder"
+description: "A fresh take on the classic gapminder animation."
+author: Nicola Rennie
+date: "2024/12/07"
+image: images/featured.png
+execute: 
+  eval: true
+  echo: false
+  warning: false
+freeze: auto
+format:
+  closeread-html:
+    css: gapminder.css
+    cr-style:
+      narrative-background-color-sidebar: "#AB4967"
+      narrative-text-color-sidebar: "#FFFFFF"
+      section-background-color: "#FFFFFF"
+      narrative-font-size: 14pt
+      narrative-font-family: Ubuntu
+    remove-header-space: true
+    debug-mode: false
+    embed-resources: true
+---
+
+```{r}
+#| label: load-data
+#| echo: false
+#| message: false
+#| warning: false
+#| eval: true
+library(gapminder)
+```
+
+:::{.cr-section}
+
+:::{#cr-main-plot .scale-to-fill}
+
+```{r}
+#| label: main-plot
+#| fig-width: 8
+#| fig-height: 6
+#| fig-align: center
+#| fig-dpi: 150
+plot(1:10)
+```
+
+:::
+
+:::{focus-on="cr-main-plot"}
+
+# Gapminder
+
+By Nicola Rennie
+
+:::
+
+:::

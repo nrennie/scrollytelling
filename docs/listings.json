@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/gapminder/index.html",
       "/posts/who-am-i/index.html",
       "/posts/monarchs/index.html"
     ]
