@@ -1,0 +1,28 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+@font-face {
+    font-display: swap;
+    font-family: 'Commissioner';
+    font-style: italic;
+    src: url('fonts/Commissioner-Italic.ttf') format('truetype');
+}
+
+html { 
+  font-size: 14px; 
+}
+
+p {
+  font-family: 'Commissioner', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+a {
+  color: #508080;
+}
+

@@ -1,6 +1,6 @@
 ---
 title: "Who am I?"
-subtitle: "Showcasing the zoom features of Closeread to create slides for a lightning talk about research."
+description: "Showcasing the zoom features of Closeread to create slides for a lightning talk about research."
 author: Nicola Rennie
 date: "2024/10/22"
 image: images/featured.png

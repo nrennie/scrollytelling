@@ -11,7 +11,5 @@ website:
 format:
   html:
     page-layout: full
-    theme:
-      - cosmo.scss
-      - custom.scss
+    css: custom.css
 
