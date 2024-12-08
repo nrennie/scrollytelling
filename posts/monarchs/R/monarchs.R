@@ -3,7 +3,6 @@
 library(tidyverse)
 library(showtext)
 library(ggtext)
-library(nrBrand)
 library(glue)
 
 
