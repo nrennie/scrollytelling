@@ -74,10 +74,6 @@ plot(1:10)
 
 ```{r}
 #| label: main-plot
-#| fig-width: 6
-#| fig-height: 4
-#| fig-align: center
-#| fig-dpi: 300
 g <- ggplot(
   data = gapminder2007,
   mapping = aes(
