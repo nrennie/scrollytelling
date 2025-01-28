@@ -17,7 +17,7 @@ h2 {
 }
 
 a {
-  color: #E69F52;
+  color: #FFFFFF;
 }
 
 .cr-section {
@@ -31,3 +31,14 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.sticky-col-stack {
+  container-name: sticks;
+  container-type: size;
+}
+
+.sticky-col-stack .html-widget {
+  width: 100cqw !important;
+  height: 100cqh !important;
+}
+  

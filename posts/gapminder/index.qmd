@@ -14,7 +14,7 @@ format:
     css: gapminder.css
     cr-style:
       narrative-background-color-sidebar: "#DB778F"
-      narrative-text-color-sidebar: "#FFFFFF"
+      narrative-text-color-sidebar: "#40111C"
       section-background-color: "#FFFFFF"
       narrative-font-size: 14pt
       narrative-font-family: Ubuntu
@@ -28,6 +28,7 @@ format:
 #| echo: false
 #| message: false
 #| warning: false
+#| output: false
 #| eval: true
 # packages
 library(gapminder)
@@ -52,6 +53,7 @@ font_add_google("Ubuntu")
 showtext_auto()
 showtext_opts(dpi = 300)
 body_font <- "Ubuntu"
+gdtools::register_gfont("Ubuntu")
 ```
 
 :::{.cr-section}
@@ -86,7 +88,10 @@ g <- ggplot(
 ) +
   geom_hline(yintercept = median(gapminder2007$lifeExp)) +
   geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
-  geom_point_interactive(pch = 21, alpha = 0.6) +
+  geom_point_interactive(
+    pch = 21, alpha = 0.6,
+    mapping = aes(tooltip = country)
+  ) +
   scale_x_log10() +
   scale_colour_manual(
     values = col_palette
@@ -94,10 +99,12 @@ g <- ggplot(
   scale_fill_manual(
     values = col_palette
   ) +
-  labs(title = "What does the world look like in 2007?",
-       x = "GDP per capita (inflation-adjusted US dollars)", 
-       y = "Life expectancy at birth (years)",
-       subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")) +
+  labs(
+    title = "What does the world look like in 2007?",
+    x = "GDP per capita (inflation-adjusted US dollars)",
+    y = "Life expectancy at birth (years)",
+    subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")
+  ) +
   theme_bw(base_family = body_font, base_size = 16) +
   theme(
     legend.position = "none",
@@ -117,7 +124,7 @@ g <- ggplot(
       margin = margin(b = 10, t = 10)
     )
   )
-girafe(g)
+girafe(ggobj = g)
 ```
 
 :::
@@ -157,9 +164,11 @@ ggplot(
     values = col_palette
   ) +
   scale_x_continuous(breaks = c(1960, 1980, 2000)) +
-  labs(title = "GDP",
-       x = NULL, 
-       y = "GDP per capita (inflation-adjusted US dollars)") +
+  labs(
+    title = "GDP",
+    x = NULL,
+    y = "GDP per capita (inflation-adjusted US dollars)"
+  ) +
   theme_bw(base_family = body_font, base_size = 16) +
   theme(
     legend.position = "none",
@@ -207,9 +216,11 @@ ggplot(
     values = col_palette
   ) +
   scale_x_continuous(breaks = c(1960, 1980, 2000)) +
-  labs(title = "Population",
-       x = NULL, 
-       y = "Population") +
+  labs(
+    title = "Population",
+    x = NULL,
+    y = "Population"
+  ) +
   theme_bw(base_family = body_font, base_size = 16) +
   theme(
     legend.position = "none",
@@ -257,9 +268,11 @@ ggplot(
     values = col_palette
   ) +
   scale_x_continuous(breaks = c(1960, 1980, 2000)) +
-  labs(title = "Life expectancy",
-       x = NULL, 
-       y = "Life expectancy at birth (years)") +
+  labs(
+    title = "Life expectancy",
+    x = NULL,
+    y = "Life expectancy at birth (years)"
+  ) +
   theme_bw(base_family = body_font, base_size = 16) +
   theme(
     legend.position = "none",
@@ -282,7 +295,7 @@ ggplot(
 
 :::
 
-:::{focus-on="cr-main-plot"}
+:::{focus-on="cr-main-plot" .scale-to-fill}
 
 ## 2007
 

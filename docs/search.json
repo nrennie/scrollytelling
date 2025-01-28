@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Scrollytelling",
     "section": "",
-    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder: how has the world changed?\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/monarchs/index.html",
@@ -180,5 +180,26 @@
     "title": "Gapminder: how has the world changed?",
     "section": "",
     "text": "statement about general trend\nLines indicate"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#gdp",
+    "href": "posts/gapminder/index.html#gdp",
+    "title": "Gapminder: how has the world changed?",
+    "section": "GDP",
+    "text": "GDP"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#population",
+    "href": "posts/gapminder/index.html#population",
+    "title": "Gapminder: how has the world changed?",
+    "section": "Population",
+    "text": "Population"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#life-expectancy",
+    "href": "posts/gapminder/index.html#life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "Life expectancy",
+    "text": "Life expectancy"
   }
 ]
