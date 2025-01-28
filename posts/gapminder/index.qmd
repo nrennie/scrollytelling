@@ -1,5 +1,5 @@
 ---
-title: "Gapminder"
+title: "Gapminder: how has the world changed?"
 description: "A fresh take on the classic gapminder animation."
 author: Nicola Rennie
 date: "2025/01/31"
@@ -13,7 +13,7 @@ format:
   closeread-html:
     css: gapminder.css
     cr-style:
-      narrative-background-color-sidebar: "#AB4967"
+      narrative-background-color-sidebar: "#DB778F"
       narrative-text-color-sidebar: "#FFFFFF"
       section-background-color: "#FFFFFF"
       narrative-font-size: 14pt
@@ -37,6 +37,7 @@ library(PrettyCols)
 library(ggtext)
 library(glue)
 library(showtext)
+library(ggiraph)
 # data
 gapminder2007 <- gapminder |>
   filter(year == 2007)
@@ -44,8 +45,8 @@ gapminder2007 <- gapminder |>
 col_palette <- prettycols("Celestial")[1:5]
 names(col_palette) <- unique(gapminder$continent)
 bg_col <- "white"
-highlight_col <- "#AB4967"
-text_col <- "#391822"
+highlight_col <- "#DB778F"
+text_col <- "#40111C"
 # fonts
 font_add_google("Ubuntu")
 showtext_auto()
@@ -55,6 +56,18 @@ body_font <- "Ubuntu"
 
 :::{.cr-section}
 
+:::{#cr-anim-plot .scale-to-fill}
+
+```{r}
+#| label: anim-plot
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+plot(1:10)
+```
+:::
+
 :::{#cr-main-plot .scale-to-fill}
 
 ```{r}
@@ -63,7 +76,7 @@ body_font <- "Ubuntu"
 #| fig-height: 4
 #| fig-align: center
 #| fig-dpi: 300
-ggplot(
+g <- ggplot(
   data = gapminder2007,
   mapping = aes(
     x = gdpPercap, y = lifeExp,
@@ -73,7 +86,7 @@ ggplot(
 ) +
   geom_hline(yintercept = median(gapminder2007$lifeExp)) +
   geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
-  geom_point(pch = 21, alpha = 0.6) +
+  geom_point_interactive(pch = 21, alpha = 0.6) +
   scale_x_log10() +
   scale_colour_manual(
     values = col_palette
@@ -104,25 +117,178 @@ ggplot(
       margin = margin(b = 10, t = 10)
     )
   )
+girafe(g)
 ```
 
 :::
 
-:::{focus-on="cr-main-plot" .scale-to-fill}
+:::{focus-on="cr-anim-plot" .scale-to-fill}
 
-# Gapminder
+# Gapminder: how has the world changed?
 
 *Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.* <br><br>
 
-by Nicola Rennie - diff image
+by Nicola Rennie
+
+:::
+
+:::{#cr-gdp .scale-to-fill}
+
+```{r}
+#| label: gdp-plot
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+ggplot(
+  data = gapminder,
+  mapping = aes(
+    x = year, y = gdpPercap,
+    colour = continent,
+    fill = continent
+  )
+) +
+  geom_smooth(alpha = 0.3) +
+  facet_wrap(~continent, nrow = 1) +
+  scale_colour_manual(
+    values = col_palette
+  ) +
+  scale_fill_manual(
+    values = col_palette
+  ) +
+  scale_x_continuous(breaks = c(1960, 1980, 2000)) +
+  labs(title = "GDP",
+       x = NULL, 
+       y = "GDP per capita (inflation-adjusted US dollars)") +
+  theme_bw(base_family = body_font, base_size = 16) +
+  theme(
+    legend.position = "none",
+    plot.title = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      face = "bold",
+      margin = margin(b = 10, t = 5)
+    )
+  )
+```
+
+:::
+
+:::{focus-on="cr-gdp"}
+
+## GDP
+
+:::
+
+:::{#cr-pop .scale-to-fill}
+
+```{r}
+#| label: pop-plot
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+ggplot(
+  data = gapminder,
+  mapping = aes(
+    x = year, y = pop,
+    colour = continent,
+    fill = continent
+  )
+) +
+  geom_smooth(alpha = 0.3) +
+  facet_wrap(~continent, nrow = 1) +
+  scale_colour_manual(
+    values = col_palette
+  ) +
+  scale_fill_manual(
+    values = col_palette
+  ) +
+  scale_x_continuous(breaks = c(1960, 1980, 2000)) +
+  labs(title = "Population",
+       x = NULL, 
+       y = "Population") +
+  theme_bw(base_family = body_font, base_size = 16) +
+  theme(
+    legend.position = "none",
+    plot.title = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      face = "bold",
+      margin = margin(b = 10, t = 5)
+    )
+  )
+```
+
+:::
+
+:::{focus-on="cr-pop"}
+
+## Population
+
+:::
+
+:::{#cr-lifeExp .scale-to-fill}
+
+```{r}
+#| label: lifeExp-plot
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+ggplot(
+  data = gapminder,
+  mapping = aes(
+    x = year, y = lifeExp,
+    colour = continent,
+    fill = continent
+  )
+) +
+  geom_smooth(alpha = 0.3) +
+  facet_wrap(~continent, nrow = 1) +
+  scale_colour_manual(
+    values = col_palette
+  ) +
+  scale_fill_manual(
+    values = col_palette
+  ) +
+  scale_x_continuous(breaks = c(1960, 1980, 2000)) +
+  labs(title = "Life expectancy",
+       x = NULL, 
+       y = "Life expectancy at birth (years)") +
+  theme_bw(base_family = body_font, base_size = 16) +
+  theme(
+    legend.position = "none",
+    plot.title = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      face = "bold",
+      margin = margin(b = 10, t = 5)
+    )
+  )
+```
+
+:::
+
+:::{focus-on="cr-lifeExp"}
+
+## Life expectancy
 
 :::
 
 :::{focus-on="cr-main-plot"}
 
-## Gapminder
+## 2007
 
 statement about general trend
+
+Lines indicate 
 
 :::
 
@@ -152,6 +318,24 @@ Add text
 ## High income, low life expectancy
 
 Add text
+
+:::
+
+:::{focus-on="cr-anim-plot" .scale-to-fill}
+
+*Nice quote*
+
+<br>
+
+{{< fa globe >}} [nrennie.rbind.io](https://nrennie.rbind.io/)
+
+<br>
+
+{{< fa brands linkedin >}} [nicola-rennie](https://www.linkedin.com/in/nicola-rennie/)
+
+<br>
+
+{{< fa brands github >}} [nrennie](https://github.com/nrennie)
 
 :::
 

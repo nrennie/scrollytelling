@@ -44,9 +44,9 @@
   {
     "objectID": "posts/gapminder/index.html",
     "href": "posts/gapminder/index.html",
-    "title": "Gapminder",
+    "title": "Gapminder: how has the world changed?",
     "section": "",
-    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions. \nby Nicola Rennie - diff image\n\n\n\n\n\nstatement about general trend\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text"
+    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions. \nby Nicola Rennie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstatement about general trend\nLines indicate\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\nNice quote\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
   },
   {
     "objectID": "index.html",
@@ -149,29 +149,36 @@
   {
     "objectID": "posts/gapminder/index.html#high-income-high-life-expectancy",
     "href": "posts/gapminder/index.html#high-income-high-life-expectancy",
-    "title": "Gapminder",
+    "title": "Gapminder: how has the world changed?",
     "section": "",
     "text": "Add text"
   },
   {
     "objectID": "posts/gapminder/index.html#low-income-high-life-expectancy",
     "href": "posts/gapminder/index.html#low-income-high-life-expectancy",
-    "title": "Gapminder",
+    "title": "Gapminder: how has the world changed?",
     "section": "",
     "text": "Add text"
   },
   {
     "objectID": "posts/gapminder/index.html#low-income-low-life-expetancy",
     "href": "posts/gapminder/index.html#low-income-low-life-expetancy",
-    "title": "Gapminder",
+    "title": "Gapminder: how has the world changed?",
     "section": "",
     "text": "Add text"
   },
   {
     "objectID": "posts/gapminder/index.html#high-income-low-life-expectancy",
     "href": "posts/gapminder/index.html#high-income-low-life-expectancy",
-    "title": "Gapminder",
+    "title": "Gapminder: how has the world changed?",
     "section": "",
     "text": "Add text"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#section",
+    "href": "posts/gapminder/index.html#section",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "statement about general trend\nLines indicate"
   }
 ]
