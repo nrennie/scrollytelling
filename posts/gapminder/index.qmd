@@ -2,7 +2,7 @@
 title: "Gapminder"
 description: "A fresh take on the classic gapminder animation."
 author: Nicola Rennie
-date: "2024/12/07"
+date: "2025/01/31"
 image: images/featured.png
 execute: 
   eval: true
@@ -29,7 +29,28 @@ format:
 #| message: false
 #| warning: false
 #| eval: true
+# packages
 library(gapminder)
+library(ggplot2)
+library(dplyr)
+library(PrettyCols)
+library(ggtext)
+library(glue)
+library(showtext)
+# data
+gapminder2007 <- gapminder |>
+  filter(year == 2007)
+# colours
+col_palette <- prettycols("Celestial")[1:5]
+names(col_palette) <- unique(gapminder$continent)
+bg_col <- "white"
+highlight_col <- "#AB4967"
+text_col <- "#391822"
+# fonts
+font_add_google("Ubuntu")
+showtext_auto()
+showtext_opts(dpi = 300)
+body_font <- "Ubuntu"
 ```
 
 :::{.cr-section}
@@ -38,20 +59,99 @@ library(gapminder)
 
 ```{r}
 #| label: main-plot
-#| fig-width: 8
-#| fig-height: 6
+#| fig-width: 6
+#| fig-height: 4
 #| fig-align: center
-#| fig-dpi: 150
-plot(1:10)
+#| fig-dpi: 300
+ggplot(
+  data = gapminder2007,
+  mapping = aes(
+    x = gdpPercap, y = lifeExp,
+    size = pop, colour = continent,
+    fill = continent
+  )
+) +
+  geom_hline(yintercept = median(gapminder2007$lifeExp)) +
+  geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
+  geom_point(pch = 21, alpha = 0.6) +
+  scale_x_log10() +
+  scale_colour_manual(
+    values = col_palette
+  ) +
+  scale_fill_manual(
+    values = col_palette
+  ) +
+  labs(title = "What does the world look like in 2007?",
+       x = "GDP per capita (inflation-adjusted US dollars)", 
+       y = "Life expectancy at birth (years)",
+       subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")) +
+  theme_bw(base_family = body_font, base_size = 16) +
+  theme(
+    legend.position = "none",
+    plot.title = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      face = "bold",
+      margin = margin(b = 0, t = 5)
+    ),
+    plot.subtitle = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      margin = margin(b = 10, t = 10)
+    )
+  )
 ```
+
+:::
+
+:::{focus-on="cr-main-plot" .scale-to-fill}
+
+# Gapminder
+
+*Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.* <br><br>
+
+by Nicola Rennie - diff image
 
 :::
 
 :::{focus-on="cr-main-plot"}
 
-# Gapminder
+## Gapminder
 
-By Nicola Rennie
+statement about general trend
+
+:::
+
+
+:::{focus-on="cr-main-plot" pan-to="-62%,65%" scale-by="2.3"}
+## High income, high life expectancy
+
+Add text
+
+:::
+
+:::{focus-on="cr-main-plot" pan-to="62%,65%" scale-by="2.3"}
+## Low income, high life expectancy
+
+Add text
+
+:::
+
+:::{focus-on="cr-main-plot" pan-to="62%,-65%" scale-by="2.3"}
+## Low income, low life expetancy
+
+Add text
+
+:::
+
+:::{focus-on="cr-main-plot" pan-to="-62%,-65%" scale-by="2.3"}
+## High income, low life expectancy
+
+Add text
 
 :::
 

@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+h1 {
+  font-family: Ubuntu, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.8em;
+  line-height: 1;
+}
+
+h2 {
+  font-family: Ubuntu, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  line-height: 1;
+}
+
+a {
+  color: #AB4967;
+}
+
+.cr-section {
+  .narrative-col {
+    min-width: 400px;
+    
+  }
+}
+
+.cr-section .sticky-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}

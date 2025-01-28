@@ -46,14 +46,14 @@
     "href": "posts/gapminder/index.html",
     "title": "Gapminder",
     "section": "",
-    "text": "Gapminder\nBy Nicola Rennie"
+    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions. \nby Nicola Rennie - diff image\n\n\n\n\n\nstatement about general trend\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Scrollytelling",
     "section": "",
-    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nDec 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/monarchs/index.html",
@@ -138,5 +138,40 @@
     "title": "English Monarchs and Marriages",
     "section": "",
     "text": "1917 - Present\nThe House of Windsor, established in 1917 by King George V, has been the reigning British royal family through major 20th and 21st-century events, including two World Wars."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#gapminder-1",
+    "href": "posts/gapminder/index.html#gapminder-1",
+    "title": "Gapminder",
+    "section": "",
+    "text": "statement about general trend"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-income-high-life-expectancy",
+    "href": "posts/gapminder/index.html#high-income-high-life-expectancy",
+    "title": "Gapminder",
+    "section": "",
+    "text": "Add text"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-income-high-life-expectancy",
+    "href": "posts/gapminder/index.html#low-income-high-life-expectancy",
+    "title": "Gapminder",
+    "section": "",
+    "text": "Add text"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-income-low-life-expetancy",
+    "href": "posts/gapminder/index.html#low-income-low-life-expetancy",
+    "title": "Gapminder",
+    "section": "",
+    "text": "Add text"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-income-low-life-expectancy",
+    "href": "posts/gapminder/index.html#high-income-low-life-expectancy",
+    "title": "Gapminder",
+    "section": "",
+    "text": "Add text"
   }
 ]
