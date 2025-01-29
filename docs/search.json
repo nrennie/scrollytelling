@@ -49,6 +49,62 @@
     "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\nGDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy.\n\n\n\n\n\nPopulation growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity.\n\n\n\n\n\nLife expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different.\n\n\n\n\n\nGenerally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size.\n\n\n\n\n\nThe majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates.\n\n\n\n\n\nThere are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles.\n\n\n\n\n\nThe majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions.\n\n\n\n\n\nThere are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution.\n\n\n\n\n“Remember: things can be bad, and getting better.” - Hans Rosling, Factfulness.\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
   },
   {
+    "objectID": "posts/gapminder/index.html#gdp",
+    "href": "posts/gapminder/index.html#gdp",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "GDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#population",
+    "href": "posts/gapminder/index.html#population",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Population growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#life-expectancy",
+    "href": "posts/gapminder/index.html#life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Life expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#the-world-in-2007",
+    "href": "posts/gapminder/index.html#the-world-in-2007",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Generally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
+    "href": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "The majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
+    "href": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "There are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
+    "href": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "The majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
+    "href": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "There are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Scrollytelling",
@@ -138,103 +194,5 @@
     "title": "English Monarchs and Marriages",
     "section": "",
     "text": "1917 - Present\nThe House of Windsor, established in 1917 by King George V, has been the reigning British royal family through major 20th and 21st-century events, including two World Wars."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#gapminder-1",
-    "href": "posts/gapminder/index.html#gapminder-1",
-    "title": "Gapminder",
-    "section": "",
-    "text": "statement about general trend"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-income-high-life-expectancy",
-    "href": "posts/gapminder/index.html#high-income-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Add text"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-income-high-life-expectancy",
-    "href": "posts/gapminder/index.html#low-income-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Add text"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-income-low-life-expetancy",
-    "href": "posts/gapminder/index.html#low-income-low-life-expetancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Add text"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-income-low-life-expectancy",
-    "href": "posts/gapminder/index.html#high-income-low-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Add text"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#section",
-    "href": "posts/gapminder/index.html#section",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "statement about general trend\nLines indicate"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#gdp",
-    "href": "posts/gapminder/index.html#gdp",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "GDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#population",
-    "href": "posts/gapminder/index.html#population",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Population growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#life-expectancy",
-    "href": "posts/gapminder/index.html#life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Life expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#the-world-in-2007",
-    "href": "posts/gapminder/index.html#the-world-in-2007",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Generally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
-    "href": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "The majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
-    "href": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "There are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
-    "href": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "The majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
-    "href": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "There are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution."
   }
 ]
