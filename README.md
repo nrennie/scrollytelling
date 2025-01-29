@@ -13,3 +13,7 @@ View all stories: [nrennie.rbind.io/scrollytelling](https://nrennie.rbind.io/scr
 ## [Who am I?](https://nrennie.rbind.io/scrollytelling/posts/who-am-i/)
 
 ![](posts/who-am-i/images/featured.png)
+
+## [Gapminder: how has the world changed?](https://nrennie.rbind.io/scrollytelling/posts/gapminder/)
+
+![](posts/gapminder/images/featured.png)
