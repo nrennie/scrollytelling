@@ -2,7 +2,7 @@
 title: "Gapminder: how has the world changed?"
 description: "A fresh take on the classic gapminder animation."
 author: Nicola Rennie
-date: "2025/01/31"
+date: "2025/01/29"
 image: images/featured.png
 execute: 
   eval: true
@@ -60,14 +60,8 @@ gdtools::register_gfont("Ubuntu")
 
 :::{#cr-anim-plot .scale-to-fill}
 
-```{r}
-#| label: anim-plot
-#| fig-width: 6
-#| fig-height: 4
-#| fig-align: center
-#| fig-dpi: 300
-plot(1:10)
-```
+![](images/animation.gif)
+
 :::
 
 :::{#cr-main-plot .scale-to-fill}
@@ -78,21 +72,18 @@ g <- ggplot(
   data = gapminder2007,
   mapping = aes(
     x = gdpPercap, y = lifeExp,
-    size = pop, colour = continent,
-    fill = continent
+    size = pop, colour = continent
   )
 ) +
   geom_hline(yintercept = median(gapminder2007$lifeExp)) +
   geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
   geom_point_interactive(
-    pch = 21, alpha = 0.6,
+    alpha = 0.6,
     mapping = aes(tooltip = country)
   ) +
   scale_x_log10() +
+  scale_size(range = c(2, 12)) +
   scale_colour_manual(
-    values = col_palette
-  ) +
-  scale_fill_manual(
     values = col_palette
   ) +
   labs(
@@ -129,9 +120,11 @@ girafe(ggobj = g)
 
 # Gapminder: how has the world changed?
 
-*Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.* <br><br>
+[Gapminder](https://www.gapminder.org/) is an independent educational non-proﬁt ﬁghting global misconceptions.
 
-by Nicola Rennie
+<br><br>
+
+*Scrollytelling visualisation by [Nicola Rennie](https://nrennie.rbind.io/).*
 
 :::
 
@@ -289,15 +282,17 @@ ggplot(
 
 ## Life expectancy
 
+On average, life expectancy is increasing across every continent. Although both the levels of life expectancy and the rates of change can be very different.
+
 :::
 
 :::{focus-on="cr-main-plot" .scale-to-fill}
 
-## 2007
+## The world in 2007
 
 statement about general trend
 
-Lines indicate 
+**Lines indicate median life expectancy and GDP per capita.*
 
 :::
 
@@ -332,7 +327,7 @@ Add text
 
 :::{focus-on="cr-anim-plot" .scale-to-fill}
 
-*Nice quote*
+*"Remember: things can be bad, and getting better."* - Hans Rosling, Factfulness.
 
 <br>
 

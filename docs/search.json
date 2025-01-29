@@ -46,14 +46,14 @@
     "href": "posts/gapminder/index.html",
     "title": "Gapminder: how has the world changed?",
     "section": "",
-    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions. \nby Nicola Rennie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstatement about general trend\nLines indicate\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\nNice quote\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
+    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOn average, life expectancy is increasing across every continent. Although both the levels of life expectancy and the rates of change can be very different.\n\n\n\n\n\nstatement about general trend\n**Lines indicate median life expectancy and GDP per capita.*\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n\nAdd text\n\n\n\n\n“Remember: things can be bad, and getting better.” - Hans Rosling, Factfulness.\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Scrollytelling",
     "section": "",
-    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder: how has the world changed?\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder: how has the world changed?\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/monarchs/index.html",
@@ -199,7 +199,14 @@
     "objectID": "posts/gapminder/index.html#life-expectancy",
     "href": "posts/gapminder/index.html#life-expectancy",
     "title": "Gapminder: how has the world changed?",
-    "section": "Life expectancy",
-    "text": "Life expectancy"
+    "section": "",
+    "text": "On average, life expectancy is increasing across every continent. Although both the levels of life expectancy and the rates of change can be very different."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#the-world-in-2007",
+    "href": "posts/gapminder/index.html#the-world-in-2007",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "statement about general trend\n**Lines indicate median life expectancy and GDP per capita.*"
   }
 ]
