@@ -371,33 +371,34 @@ Life expectancy is the average number of years a person is expected to live base
 
 Generally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.
 
- * *Lines indicate median life expectancy and GDP per capita.*
+<br>
+*Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size.*
 
 :::
 
 
-:::{focus-on="cr-main-plot-label" pan-to="-62%,60%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="-50%,55%" scale-by="1.6"}
 ## High GDP per capita, high life expectancy
 
 The majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates.
 
 :::
 
-:::{focus-on="cr-main-plot-label" pan-to="62%,60%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="32%,55%" scale-by="1.6"}
 ## Low GDP per capita, high life expectancy
 
 There are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles.
 
 :::
 
-:::{focus-on="cr-main-plot-label" pan-to="62%,-65%" scale-by="2.1"}
+:::{focus-on="cr-main-plot-label" pan-to="32%,-30%" scale-by="1.6"}
 ## Low GDP per capita, low life expetancy
 
 The majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions.
 
 :::
 
-:::{focus-on="cr-main-plot-label" pan-to="-62%,-60%" scale-by="2.1"}
+:::{focus-on="cr-main-plot-label" pan-to="-55%,-30%" scale-by="1.6"}
 ## High GDP per capita, low life expectancy
 
 There are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution.

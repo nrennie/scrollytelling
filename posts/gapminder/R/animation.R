@@ -38,9 +38,9 @@ p <- ggplot(
     title = "What does the world look like in {frame_time}?",
     x = "GDP per capita (inflation-adjusted US dollars)",
     y = "Life expectancy at birth (years)",
-    subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")
+    subtitle = glue("Though every area of the world  has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")
   ) +
-  theme_bw(base_family = body_font, base_size = 13) +
+  theme_bw(base_family = body_font, base_size = 13.2) +
   theme(
     legend.position = "none",
     plot.title = element_textbox_simple(
