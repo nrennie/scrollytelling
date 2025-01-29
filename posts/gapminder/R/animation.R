@@ -2,7 +2,6 @@ library(gganimate)
 library(scales)
 library(gapminder)
 library(ggplot2)
-library(PrettyCols)
 library(ggtext)
 library(glue)
 library(showtext)
@@ -11,7 +10,7 @@ library(showtext)
 gapminder2007 <- gapminder |>
   filter(year == 2007)
 # colours
-col_palette <- prettycols("Celestial")[1:5]
+col_palette <- c("#A053A1", "#DB778F", "#E69F52", "#09A39A", "#5869C7")
 names(col_palette) <- unique(gapminder$continent)
 bg_col <- "white"
 highlight_col <- "#DB778F"
@@ -41,7 +40,7 @@ p <- ggplot(
     y = "Life expectancy at birth (years)",
     subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")
   ) +
-  theme_bw(base_family = body_font, base_size = 12) +
+  theme_bw(base_family = body_font, base_size = 13) +
   theme(
     legend.position = "none",
     plot.title = element_textbox_simple(
