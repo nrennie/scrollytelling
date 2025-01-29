@@ -38,7 +38,6 @@ library(PrettyCols)
 library(ggtext)
 library(glue)
 library(showtext)
-library(ggiraph)
 # data
 gapminder2007 <- gapminder |>
   filter(year == 2007)
@@ -53,7 +52,6 @@ font_add_google("Ubuntu")
 showtext_auto()
 showtext_opts(dpi = 300)
 body_font <- "Ubuntu"
-gdtools::register_gfont("Ubuntu")
 ```
 
 :::{.cr-section}
@@ -68,7 +66,11 @@ gdtools::register_gfont("Ubuntu")
 
 ```{r}
 #| label: main-plot
-g <- ggplot(
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+ggplot(
   data = gapminder2007,
   mapping = aes(
     x = gdpPercap, y = lifeExp,
@@ -77,9 +79,8 @@ g <- ggplot(
 ) +
   geom_hline(yintercept = median(gapminder2007$lifeExp)) +
   geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
-  geom_point_interactive(
-    alpha = 0.6,
-    mapping = aes(tooltip = country)
+  geom_point(
+    alpha = 0.6
   ) +
   scale_x_log10() +
   scale_size(range = c(2, 12)) +
@@ -111,7 +112,76 @@ g <- ggplot(
       margin = margin(b = 10, t = 10)
     )
   )
-girafe(ggobj = g)
+```
+
+:::
+
+:::{#cr-main-plot-label .scale-to-fill}
+
+```{r}
+#| label: main-plot-label
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+#| fig-dpi: 300
+ggplot(
+  data = gapminder2007,
+  mapping = aes(
+    x = gdpPercap, y = lifeExp
+  )
+) +
+  geom_hline(yintercept = median(gapminder2007$lifeExp)) +
+  geom_vline(xintercept = median(gapminder2007$gdpPercap)) +
+  geom_point(
+    mapping = aes(,
+      size = pop, colour = continent
+    ),
+    alpha = 0.6
+  ) +
+  geom_text(
+    data = filter(
+      gapminder2007,
+      country %in% c(
+        "South Africa", "China", "India", "Swaziland",
+        "Japan", "United Kingdom", "United States"
+      )
+    ),
+    mapping = aes(
+      label = country
+    ),
+    family = body_font,
+    size = 4
+  ) +
+  scale_x_log10() +
+  scale_size(range = c(2, 12)) +
+  scale_colour_manual(
+    values = col_palette
+  ) +
+  labs(
+    title = "What does the world look like in 2007?",
+    x = "GDP per capita (inflation-adjusted US dollars)",
+    y = "Life expectancy at birth (years)",
+    subtitle = glue("Though every area of the world has seen changes in life expectancy and GDP over time, there are still disparities between <span style='color:{col_palette[1]}'>**{names(col_palette)[1]}**</span>, <span style='color:{col_palette[2]}'>**{names(col_palette)[2]}**</span>, <span style='color:{col_palette[3]}'>**{names(col_palette)[3]}**</span>, <span style='color:{col_palette[4]}'>**{names(col_palette)[4]}**</span>, and <span style='color:{col_palette[5]}'>**{names(col_palette)[5]}**</span>.")
+  ) +
+  theme_bw(base_family = body_font, base_size = 16) +
+  theme(
+    legend.position = "none",
+    plot.title = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      face = "bold",
+      margin = margin(b = 0, t = 5)
+    ),
+    plot.subtitle = element_textbox_simple(
+      colour = text_col,
+      hjust = 0,
+      halign = 0,
+      family = body_font,
+      margin = margin(b = 10, t = 10)
+    )
+  )
 ```
 
 :::
@@ -297,28 +367,28 @@ statement about general trend
 :::
 
 
-:::{focus-on="cr-main-plot" pan-to="-62%,65%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="-62%,60%" scale-by="2.3"}
 ## High income, high life expectancy
 
 Add text
 
 :::
 
-:::{focus-on="cr-main-plot" pan-to="62%,65%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="62%,60%" scale-by="2.3"}
 ## Low income, high life expectancy
 
 Add text
 
 :::
 
-:::{focus-on="cr-main-plot" pan-to="62%,-65%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="62%,-65%" scale-by="2.3"}
 ## Low income, low life expetancy
 
 Add text
 
 :::
 
-:::{focus-on="cr-main-plot" pan-to="-62%,-65%" scale-by="2.3"}
+:::{focus-on="cr-main-plot-label" pan-to="-62%,-65%" scale-by="2.3"}
 ## High income, low life expectancy
 
 Add text
