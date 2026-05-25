@@ -1,0 +1,84 @@
+---
+title: "The Freddo Index"
+description: "A fresh take on the classic gapminder animation."
+author: Nicola Rennie
+date: "2025/01/29"
+image: images/featured.png
+execute: 
+  eval: true
+  echo: false
+  warning: false
+freeze: auto
+format:
+  closeread-html:
+    css: gapminder.css
+    cr-style:
+      narrative-background-color-sidebar: "#DB778F"
+      narrative-text-color-sidebar: "#40111C"
+      section-background-color: "#FFFFFF"
+      narrative-font-size: 14pt
+      narrative-font-family: Ubuntu
+    remove-header-space: true
+    debug-mode: false
+    embed-resources: true
+---
+
+```{r}
+#| label: load-data
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+#| eval: true
+# packages
+library(ggplot2)
+library(dplyr)
+library(ggtext)
+library(glue)
+library(scales)
+library(showtext)
+# colours
+col_palette <- c("#A053A1", "#DB778F", "#E69F52", "#09A39A", "#5869C7")
+bg_col <- "white"
+highlight_col <- "#DB778F"
+text_col <- "#40111C"
+# fonts
+font_add_google("Ubuntu")
+showtext_auto()
+showtext_opts(dpi = 300)
+body_font <- "Ubuntu"
+```
+
+* Introducing the Freddo index title page
+
+* national minimum wage
+* different age groups
+* changing over time (adults >=? 25)
+
+* In the USA, they have the big mac index 
+* one thing we do use is the humble Freddo (def and image), with MPs using it 
+* history australia, 1930s
+* freddo price over tme (all time)
+* uk prices since 1999
+* variability across retailers (Tesco nostalgia week), "It’s also important to note that as a manufacturer we do not set the retail prices for products sold in shops.
+
+
+
+* freddo's per hour line chart
+* waflle chart (disappearing)
+* if under 25, you can generally buy even fewer freddos
+
+
+<br>
+
+{{< fa globe >}} [nrennie.rbind.io](https://nrennie.rbind.io/)
+
+<br>
+
+{{< fa brands linkedin >}} [nicola-rennie](https://www.linkedin.com/in/nicola-rennie/)
+
+<br>
+
+{{< fa brands github >}} [nrennie](https://github.com/nrennie)
+
+
