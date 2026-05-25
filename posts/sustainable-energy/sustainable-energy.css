@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+h1 {
+  font-family: Oswald, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.8em;
+  line-height: 1;
+}
+
+h2 {
+  font-family: Oswald, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  line-height: 1;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+
+.cr-section .sticky-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sticky-col-stack {
+  container-name: sticks;
+  container-type: size;
+}
+
+.sticky-col-stack .html-widget {
+  width: 100cqw !important;
+  height: 100cqh !important;
+}
+
+.img-fluid {
+  max-height: 500px !important;
+}
+  
