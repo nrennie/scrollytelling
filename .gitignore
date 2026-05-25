@@ -4,3 +4,5 @@
 .Ruserdata
 recording/
 /.quarto/
+
+**/*.quarto_ipynb
