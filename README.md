@@ -6,6 +6,11 @@ These examples are built using [Quarto](https://quarto.org/) and the [Closeread 
 
 View all stories: [nrennie.rbind.io/scrollytelling](https://nrennie.rbind.io/scrollytelling/)
 
+## [More accessible line charts](https://nrennie.rbind.io/scrollytelling/posts/chart-styling/)
+
+![](posts/chart-styling/images/featured.png)
+
+
 ## [Sustainable energy for all](https://nrennie.rbind.io/scrollytelling/posts/sustainable-energy/)
 
 ![](posts/sustainable-energy/images/featured.png)
