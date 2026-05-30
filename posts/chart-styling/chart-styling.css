@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+h1 {
+  font-family: Oswald, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.8em;
+  line-height: 1;
+}
+
+h2 {
+  font-family: Oswald, "Arial", Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  line-height: 1;
+}
+
+a {
+  color: #7F055F;
+}
+
+.cr-section .sticky-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sticky-col-stack {
+  container-name: sticks;
+  container-type: size;
+}
+
+.sticky-col-stack .html-widget {
+  width: 100cqw !important;
+  height: 100cqh !important;
+}
+  
+body.cr-removeheaderspace #quarto-content main#quarto-document-content {
+  margin-bottom: -60px !important;
+  padding-bottom: 0 !important;
+}
+
+.cr-section .scale-to-fill {
+  transform: none !important;
+}
+
+.cr-ready .scale-to-fill {
+  transform: none !important;
+}
+
+.scale-to-fill {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+

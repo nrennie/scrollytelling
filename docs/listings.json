@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/chart-styling/index.html",
       "/posts/sustainable-energy/index.html",
       "/posts/gapminder/index.html",
       "/posts/who-am-i/index.html",
