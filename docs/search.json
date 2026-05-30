@@ -42,125 +42,6 @@
     "text": "Communicating data more effectively \nby developing Best Practices for Data Visualisation guidance for Royal Statistical Society publications, and helping authors to implement best practices."
   },
   {
-    "objectID": "posts/gapminder/index.html",
-    "href": "posts/gapminder/index.html",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\nGDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy.\n\n\n\n\n\nPopulation growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity.\n\n\n\n\n\nLife expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different.\n\n\n\n\n\nGenerally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size.\n\n\n\n\n\nThe majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates.\n\n\n\n\n\nThere are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles.\n\n\n\n\n\nThe majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions.\n\n\n\n\n\nThere are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution.\n\n\n\n\n“Remember: things can be bad, and getting better.” - Hans Rosling, Factfulness.\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
-  },
-  {
-    "objectID": "posts/gapminder/index.html#gdp",
-    "href": "posts/gapminder/index.html#gdp",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "GDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#population",
-    "href": "posts/gapminder/index.html#population",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Population growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#life-expectancy",
-    "href": "posts/gapminder/index.html#life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Life expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#the-world-in-2007",
-    "href": "posts/gapminder/index.html#the-world-in-2007",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "Generally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
-    "href": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "The majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
-    "href": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "There are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
-    "href": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "The majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions."
-  },
-  {
-    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
-    "href": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
-    "title": "Gapminder: how has the world changed?",
-    "section": "",
-    "text": "There are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Scrollytelling",
-    "section": "",
-    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore accessible line charts\n\n\nLearn how to effectively style line charts\n\n\n\nNicola Rennie\n\n\nMay 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder: how has the world changed?\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/chart-styling/index.html",
-    "href": "posts/chart-styling/index.html",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "The default settings for chart software are not guaranteed to be accessible, and often need to be adapted for your own chart. Let’s transform a line chart to make it more accessible.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\nThe first thing that jumps out in the default chart, is how thin the lines are and how that makes them quite difficult to see. The default font size is also quite small.\n Increase the line width and font size.\n\n\n\n\n\nIdeally, we want the line colours to be distinguishable from each other, and also from the background.\n Check colour contrast in greyscale.\n\n\n\n\nSince all of the default colours are equally bright, in greyscale they look identical and there’s no way to tell apart the lines.\n Replace default colours with more accessible palette.\n\n\n\n\n\nRegardless of how well chosen you think your colours are, it’s important never to rely on them as the only method of distinguishing groups.\n Add direct labels to the end of lines.\n\n\n\n\nDepending on the data, direct labels may not be sufficient.\n Ensure you actually visually inspect your chart.\n\n\n\n\nRegardless of how well you can distinguish colours, it’s really hard to distinguish the lines from each other here.\n Consider additional ways to distinguish categories, like symbols.\n\n\n\n\nIt’s might be more accessible in terms of distinguishing categories but it’s actually less accessible in terms of how easy it is to read and interpret. With a quick glance, how easy is it to see which line(s) are increasing? Not very.\n Consider a different chart type.\n\n\n\n\n\nA good alternative to spaghetti line charts is small multiple line charts.\n Highlight one category at a time.\n\n\n\n\nSince the categories are on separately labelled charts, there’s no need for colours (or symbols) to differentiate.\n Use colour for highlighting, not decoration.\n\n\n\n\n\nThe title should describe the main trend in the chart. Users are more likely to understand and remember the main trend from a chart where it is also in the chart title.\n Use narrative titles to summarise the chart.\n\n\n\n\n\nWhen producing a chart, make sure you include alt text describing the chart. Alt text is read out by screen readers or used in place of an image if internet connection is poor. Amy Cesal’s advice for Writing Alt Text for Data Visualization is especially useful.\n Include alt text and data downloads.\n\n\n\n\nThe transformed version is much easier to read, more accessible, and more aesthetically pleasing.\nThere’s isn’t an easy, formulaic way of designing the best and most accessible chart based solely on what type of data you have. And there isn’t a chart that is the best and most accessible chart for everyone because different people have different needs.\n Remember: If you’re designing things for humans, one of the best things you can do is go and talk to those humans about what they need."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#default-ggplot2-chart",
-    "href": "posts/chart-styling/index.html#default-ggplot2-chart",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "The first thing that jumps out in the default chart, is how thin the lines are and how that makes them quite difficult to see. The default font size is also quite small.\n Increase the line width and font size."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#colours",
-    "href": "posts/chart-styling/index.html#colours",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "Ideally, we want the line colours to be distinguishable from each other, and also from the background.\n Check colour contrast in greyscale."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#dont-rely-on-colour",
-    "href": "posts/chart-styling/index.html#dont-rely-on-colour",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "Regardless of how well chosen you think your colours are, it’s important never to rely on them as the only method of distinguishing groups.\n Add direct labels to the end of lines."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#change-the-chart-type",
-    "href": "posts/chart-styling/index.html#change-the-chart-type",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "A good alternative to spaghetti line charts is small multiple line charts.\n Highlight one category at a time."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#make-use-of-chart-text",
-    "href": "posts/chart-styling/index.html#make-use-of-chart-text",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "The title should describe the main trend in the chart. Users are more likely to understand and remember the main trend from a chart where it is also in the chart title.\n Use narrative titles to summarise the chart."
-  },
-  {
-    "objectID": "posts/chart-styling/index.html#chart-alternatives",
-    "href": "posts/chart-styling/index.html#chart-alternatives",
-    "title": "More accessible line charts",
-    "section": "",
-    "text": "When producing a chart, make sure you include alt text describing the chart. Alt text is read out by screen readers or used in place of an image if internet connection is poor. Amy Cesal’s advice for Writing Alt Text for Data Visualization is especially useful.\n Include alt text and data downloads."
-  },
-  {
     "objectID": "posts/monarchs/index.html",
     "href": "posts/monarchs/index.html",
     "title": "English Monarchs and Marriages",
@@ -243,5 +124,159 @@
     "title": "English Monarchs and Marriages",
     "section": "",
     "text": "1917 - Present\nThe House of Windsor, established in 1917 by King George V, has been the reigning British royal family through major 20th and 21st-century events, including two World Wars."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html",
+    "href": "posts/chart-styling/index.html",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "The default settings for chart software are not guaranteed to be accessible, and often need to be adapted for your own chart. Let’s transform a line chart to make it more accessible.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\nThe first thing that jumps out in the default chart, is how thin the lines are and how that makes them quite difficult to see. The default font size is also quite small.\n Increase the line width and font size.\n\n\n\n\n\nIdeally, we want the line colours to be distinguishable from each other, and also from the background.\n Check colour contrast in greyscale.\n\n\n\n\nSince all of the default colours are equally bright, in greyscale they look identical and there’s no way to tell apart the lines.\n Replace default colours with more accessible palette.\n\n\n\n\n\nRegardless of how well chosen you think your colours are, it’s important never to rely on them as the only method of distinguishing groups.\n Add direct labels to the end of lines.\n\n\n\n\nDepending on the data, direct labels may not be sufficient.\n Ensure you actually visually inspect your chart.\n\n\n\n\nRegardless of how well you can distinguish colours, it’s really hard to distinguish the lines from each other here.\n Consider additional ways to distinguish categories, like symbols.\n\n\n\n\nIt’s might be more accessible in terms of distinguishing categories but it’s actually less accessible in terms of how easy it is to read and interpret. With a quick glance, how easy is it to see which line(s) are increasing? Not very.\n Consider a different chart type.\n\n\n\n\n\nA good alternative to spaghetti line charts is small multiple line charts.\n Highlight one category at a time.\n\n\n\n\nSince the categories are on separately labelled charts, there’s no need for colours (or symbols) to differentiate.\n Use colour for highlighting, not decoration.\n\n\n\n\n\nThe title should describe the main trend in the chart. Users are more likely to understand and remember the main trend from a chart where it is also in the chart title.\n Use narrative titles to summarise the chart.\n\n\n\n\n\nWhen producing a chart, make sure you include alt text describing the chart. Alt text is read out by screen readers or used in place of an image if internet connection is poor. Amy Cesal’s advice for Writing Alt Text for Data Visualization is especially useful.\n Include alt text and data downloads.\n\n\n\n\nThe transformed version is much easier to read, more accessible, and more aesthetically pleasing.\nThere’s isn’t an easy, formulaic way of designing the best and most accessible chart based solely on what type of data you have. And there isn’t a chart that is the best and most accessible chart for everyone because different people have different needs.\n Remember: If you’re designing things for humans, one of the best things you can do is go and talk to those humans about what they need."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#default-ggplot2-chart",
+    "href": "posts/chart-styling/index.html#default-ggplot2-chart",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "The first thing that jumps out in the default chart, is how thin the lines are and how that makes them quite difficult to see. The default font size is also quite small.\n Increase the line width and font size."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#colours",
+    "href": "posts/chart-styling/index.html#colours",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "Ideally, we want the line colours to be distinguishable from each other, and also from the background.\n Check colour contrast in greyscale."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#dont-rely-on-colour",
+    "href": "posts/chart-styling/index.html#dont-rely-on-colour",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "Regardless of how well chosen you think your colours are, it’s important never to rely on them as the only method of distinguishing groups.\n Add direct labels to the end of lines."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#change-the-chart-type",
+    "href": "posts/chart-styling/index.html#change-the-chart-type",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "A good alternative to spaghetti line charts is small multiple line charts.\n Highlight one category at a time."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#make-use-of-chart-text",
+    "href": "posts/chart-styling/index.html#make-use-of-chart-text",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "The title should describe the main trend in the chart. Users are more likely to understand and remember the main trend from a chart where it is also in the chart title.\n Use narrative titles to summarise the chart."
+  },
+  {
+    "objectID": "posts/chart-styling/index.html#chart-alternatives",
+    "href": "posts/chart-styling/index.html#chart-alternatives",
+    "title": "More accessible line charts",
+    "section": "",
+    "text": "When producing a chart, make sure you include alt text describing the chart. Alt text is read out by screen readers or used in place of an image if internet connection is poor. Amy Cesal’s advice for Writing Alt Text for Data Visualization is especially useful.\n Include alt text and data downloads."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Scrollytelling",
+    "section": "",
+    "text": "Scrollytelling is a digital storytelling technique that uses interactive scrolling to reveal content, animations, or data in a dynamic and engaging way as the user scrolls down a webpage.\nThese examples are built using Quarto and the Closeread extension. The source code can found on GitHub. These visualisations are best viewed on a desktop, rather than a mobile device.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore accessible line charts\n\n\nLearn how to effectively style line charts\n\n\n\nNicola Rennie\n\n\nMay 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSustainable energy for all\n\n\nAn explainer of how to interpret arc charts.\n\n\n\nNicola Rennie\n\n\nMay 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nGapminder: how has the world changed?\n\n\nA fresh take on the classic gapminder animation.\n\n\n\nNicola Rennie\n\n\nJan 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWho am I?\n\n\nShowcasing the zoom features of Closeread to create slides for a lightning talk about research.\n\n\n\nNicola Rennie\n\n\nOct 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish Monarchs and Marriages\n\n\nScroll through time to learn about different periods of England’s history, and the marriages and monarchs of each period.\n\n\n\nNicola Rennie\n\n\nAug 26, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/gapminder/index.html",
+    "href": "posts/gapminder/index.html",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Gapminder is an independent educational non-proﬁt ﬁghting global misconceptions.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\n\nGDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy.\n\n\n\n\n\nPopulation growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity.\n\n\n\n\n\nLife expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different.\n\n\n\n\n\nGenerally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size.\n\n\n\n\n\nThe majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates.\n\n\n\n\n\nThere are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles.\n\n\n\n\n\nThe majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions.\n\n\n\n\n\nThere are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution.\n\n\n\n\n“Remember: things can be bad, and getting better.” - Hans Rosling, Factfulness.\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
+  },
+  {
+    "objectID": "posts/gapminder/index.html#gdp",
+    "href": "posts/gapminder/index.html#gdp",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "GDP (Gross Domestic Product) is the total monetary value of all finished goods and services produced within a country’s borders over a specific period, typically used to measure economic performance. Higher GDP per capita often correlates with better healthcare, education, and living standards, which can lead to longer life expectancy."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#population",
+    "href": "posts/gapminder/index.html#population",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Population growth is the increase in the number of people in a given area over time, influenced by birth rates, death rates, and migration. Population growth affects GDP by influencing labour supply, consumer demand, and economic productivity."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#life-expectancy",
+    "href": "posts/gapminder/index.html#life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Life expectancy is the average number of years a person is expected to live based on current mortality trends and healthcare conditions in a given population. On average, life expectancy is increasing across every continent, although both the levels of life expectancy and the rates of change can be very different."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#the-world-in-2007",
+    "href": "posts/gapminder/index.html#the-world-in-2007",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "Generally, countries with higher GDP per capita tend to have higher life expectancy, as economic growth improves healthcare, nutrition, and living standards. Population growth can have mixed effects; in some cases, rapid growth strains resources and slows GDP per capita gains, while in others, a growing workforce can boost economic productivity.\n Note: lines indicate median life expectancy and GDP per capita, and size of circles represents population size."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
+    "href": "posts/gapminder/index.html#high-gdp-per-capita-high-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "The majority of countries with high GDP per capita and high life expectancy are in Europe, the Americas, and Asia. High GDP per capita and high life expectancy often go together because wealthier countries can invest in advanced healthcare, education, infrastructure, and social services, leading to better living conditions and lower mortality rates."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
+    "href": "posts/gapminder/index.html#low-gdp-per-capita-high-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "There are few countries with low GDP per capita but high life expectancy. These are primarily countries in Asia which may be due to strong public healthcare systems, community-based health initiatives, and cultural factors that promote healthy lifestyles."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
+    "href": "posts/gapminder/index.html#low-gdp-per-capita-low-life-expetancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "The majority of countries with low GDP per capita and low life expectancy are in Africa, alongside several Asian countries. Low GDP per capita and low life expectancy often coincide due to limited access to healthcare, education, and basic services, leading to higher mortality rates and poorer living conditions."
+  },
+  {
+    "objectID": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
+    "href": "posts/gapminder/index.html#high-gdp-per-capita-low-life-expectancy",
+    "title": "Gapminder: how has the world changed?",
+    "section": "",
+    "text": "There are few countries with high GDP per capita, and low life expectancy. These are primarily countries in Africa, where high GDP may stem from natural resource exports (such as oil), but low life expectancy persists due to unequal wealth distribution."
+  },
+  {
+    "objectID": "posts/sustainable-energy/index.html",
+    "href": "posts/sustainable-energy/index.html",
+    "title": "Sustainable energy for all",
+    "section": "",
+    "text": "Data from the SE4ALL Database via TidyTuesday.\n\nScrollytelling visualisation by Nicola Rennie.\n\n\n\n\nThe Sustainable Energy for all (SE4ALL) initiative, launched in 2010 by the UN Secretary General, established three global objectives to be accomplished by 2030: to ensure universal access to modern energy services, to double the global rate of improvement in global energy efficiency, and to double the share of renewable energy in the global energy mix.  The data used in these examples is from 2010.\n\n\n\n\n\nEach dot represents a different country. It shows the percentage of the population in urban and rural areas with access to non-solid fuel like natural gas, LPG, electricity, and ethanol.  Many countries have the same value of 5% or 95%.\n\n\n\n\nMany values equal to the same round number can be suspicious. We may choose to collapse the stacked points down.\n\n\n\n\nThe diameter of the arcs represents the percentage of the population with access to non-solid fuels, i.e., the same as the x-axis values.\n\n\n\n\nMaking the lines semi-transparent helps to see where there are more countries with the same value.  The white lines show the median across all countries included in the dataset.\n\n\n\n\n\nThe median percentage of the population with access to non-solid fuels in rural areas is 61%.\n\n\n\n\n37 countries (including Afghanistan, Bangladesh, Benin, Burkina Faso, Burundi, Cambodia, Cameroon, Central African Republic, Congo, Dem. Rep., Congo, Rep., Cote d’Ivoire, Ethiopia, Gambia, The, Ghana, Guinea, Guinea-Bissau, Haiti, Kenya, Korea, Dem. Rep., Lao PDR, Liberia, Madagascar, Malawi, Mali, Mongolia, Mozambique, Myanmar, Niger, Rwanda, Sierra Leone, Solomon Islands, Somalia, Tanzania, Timor-Leste, Togo, Uganda, and Zambia) had the minimum percentage with just 5% of the rural population able to access non-solid fuels.\n\n\n\n\nTwo countries (Grenada and St. Lucia) had the maximum percentage with 100% of the rural population able to access non-solid fuels.\n\n\n\n\n\nThe median percentage of the population with access to non-solid fuels in urban areas is 95%.\n\n\n\n\n10 countries (including Burundi, Central African Republic, Guinea, Guinea-Bissau, Liberia, Madagascar, Mali, Rwanda, Sierra Leone, and Somalia) had the minimum percentage with just 5% of the urban population able to access non-solid fuels.\n\n\n\n\nAs with rural areas, Grenada and St. Lucia had the maximum percentage with 100% of the urban population able to access non-solid fuels.\n\n\n\n\n\nThe Marshall Islands had the biggest difference between urban (92%) and rural (8%) areas.\nNo areas had higher access in rural areas.\n\n\n\n\n\n nrennie.rbind.io\n\n nicola-rennie\n\n nrennie"
+  },
+  {
+    "objectID": "posts/sustainable-energy/index.html#how-to-read-this-chart",
+    "href": "posts/sustainable-energy/index.html#how-to-read-this-chart",
+    "title": "Sustainable energy for all",
+    "section": "",
+    "text": "Each dot represents a different country. It shows the percentage of the population in urban and rural areas with access to non-solid fuel like natural gas, LPG, electricity, and ethanol.  Many countries have the same value of 5% or 95%."
+  },
+  {
+    "objectID": "posts/sustainable-energy/index.html#rural-areas",
+    "href": "posts/sustainable-energy/index.html#rural-areas",
+    "title": "Sustainable energy for all",
+    "section": "",
+    "text": "The median percentage of the population with access to non-solid fuels in rural areas is 61%."
+  },
+  {
+    "objectID": "posts/sustainable-energy/index.html#urban-areas",
+    "href": "posts/sustainable-energy/index.html#urban-areas",
+    "title": "Sustainable energy for all",
+    "section": "",
+    "text": "The median percentage of the population with access to non-solid fuels in urban areas is 95%."
+  },
+  {
+    "objectID": "posts/sustainable-energy/index.html#biggest-difference",
+    "href": "posts/sustainable-energy/index.html#biggest-difference",
+    "title": "Sustainable energy for all",
+    "section": "",
+    "text": "The Marshall Islands had the biggest difference between urban (92%) and rural (8%) areas.\nNo areas had higher access in rural areas."
   }
 ]

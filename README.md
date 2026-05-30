@@ -6,6 +6,10 @@ These examples are built using [Quarto](https://quarto.org/) and the [Closeread 
 
 View all stories: [nrennie.rbind.io/scrollytelling](https://nrennie.rbind.io/scrollytelling/)
 
+## [Sustainable energy for all](https://nrennie.rbind.io/scrollytelling/posts/sustainable-energy/)
+
+![](posts/sustainable-energy/images/featured.png)
+
 ## [Monarchs and Marriages](https://nrennie.rbind.io/scrollytelling/posts/monarchs/)
 
 ![](posts/monarchs/images/featured.png)
