@@ -36,3 +36,22 @@ a {
   height: 100cqh !important;
 }
   
+body.cr-removeheaderspace #quarto-content main#quarto-document-content {
+  margin-bottom: -60px !important;
+  padding-bottom: 0 !important;
+}
+
+.cr-section .scale-to-fill {
+  transform: none !important;
+}
+
+.cr-ready .scale-to-fill {
+  transform: none !important;
+}
+
+.scale-to-fill {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+

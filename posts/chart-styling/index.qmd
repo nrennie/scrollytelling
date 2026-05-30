@@ -1,6 +1,6 @@
 ---
 title: "More accessible line charts"
-description: "Learn how to effectively style line charts"
+description: "Learn how to effectively style line charts."
 author: Nicola Rennie
 date: "2026/05/30"
 image: images/featured.png
@@ -22,6 +22,13 @@ format:
     remove-header-space: true
     debug-mode: false
     embed-resources: true
+    include-after-body:
+      text: |
+        <script>
+        window.addEventListener('load', () => {
+          document.documentElement.classList.add('cr-ready');
+        });
+        </script>
 ---
 
 ```{r}
@@ -94,7 +101,7 @@ ggplot(data = plot_data3) +
 :::
 
 
-:::{focus-on="cr-init" .scale-to-fill}
+:::{focus-on="cr-init"}
 
 # How to create a more accessible line chart
 
@@ -126,7 +133,7 @@ g0
 :::
 
 
-:::{focus-on="cr-v1" .scale-to-fill}
+:::{focus-on="cr-v1"}
 
 ## Default `ggplot2` chart
 
@@ -157,7 +164,7 @@ g
 :::
 
 
-:::{focus-on="cr-v2" .scale-to-fill}
+:::{focus-on="cr-v2"}
 
 ## Colours
 
@@ -185,7 +192,7 @@ plot(g_des)
 :::
 
 
-:::{focus-on="cr-v2b" .scale-to-fill}
+:::{focus-on="cr-v2b"}
 
 Since all of the default colours are equally bright, in greyscale they look identical and there’s no way to tell apart the lines.
 
@@ -213,7 +220,7 @@ g
 :::
 
 
-:::{focus-on="cr-v3" .scale-to-fill}
+:::{focus-on="cr-v3"}
 
 ## Don't rely on colour
 
@@ -266,7 +273,7 @@ g
 :::
 
 
-:::{focus-on="cr-v4" .scale-to-fill}
+:::{focus-on="cr-v4"}
 
 Depending on the data, direct labels may not be sufficient. 
 
@@ -324,7 +331,7 @@ g2 +
 :::
 
 
-:::{focus-on="cr-v5" .scale-to-fill}
+:::{focus-on="cr-v5"}
 
 Regardless of how well you can distinguish colours, it’s really hard to distinguish the lines from each other here.
 
@@ -366,7 +373,7 @@ g2 +
 :::
 
 
-:::{focus-on="cr-v6" .scale-to-fill}
+:::{focus-on="cr-v6"}
 
 It’s might be more accessible in terms of distinguishing categories but it’s actually less accessible in terms of how easy it is to read and interpret. With a quick glance, how easy is it to see which line(s) are increasing? Not very.
 
@@ -405,7 +412,7 @@ g2 + facet_wrap(~category) +
 :::
 
 
-:::{focus-on="cr-v7" .scale-to-fill}
+:::{focus-on="cr-v7"}
 
 ## Change the chart type
 
@@ -447,7 +454,7 @@ g2
 :::
 
 
-:::{focus-on="cr-v8" .scale-to-fill}
+:::{focus-on="cr-v8"}
 
 Since the categories are on separately labelled charts, there’s no need for colours (or symbols) to differentiate.
 
@@ -490,7 +497,7 @@ g2_final
 :::
 
 
-:::{focus-on="cr-v9" .scale-to-fill}
+:::{focus-on="cr-v9"}
 
 ## Make use of chart text
 
@@ -514,7 +521,7 @@ The title should describe the main trend in the chart. Users are more likely to 
 :::
 
 
-:::{focus-on="cr-v10" .scale-to-fill}
+:::{focus-on="cr-v10"}
 
 ## Chart alternatives
 
@@ -549,7 +556,7 @@ g2_final
 
 
 
-:::{focus-on="cr-final" .scale-to-fill}
+:::{focus-on="cr-final"}
 
 The transformed version is much easier to read, more accessible, and more aesthetically pleasing.
 
@@ -563,3 +570,14 @@ There’s isn’t an easy, formulaic way of designing the best and most accessib
 :::
 
 :::
+
+```{ojs}
+allStickies = document.querySelectorAll('.scale-to-fill')
+
+allStickies.forEach(el => {
+  const id = el.id
+
+  el.style.opacity = (crActiveSticky === id) ? 1 : 0
+})
+```
+
