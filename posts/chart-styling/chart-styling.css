@@ -54,4 +54,12 @@ body.cr-removeheaderspace #quarto-content main#quarto-document-content {
   transition: opacity 1.5s ease-in-out;
 }
 
+.cr-section .sticky-col .sticky-col-stack .sticky {
+  transition: opacity 0.8s ease-in-out 0s, color 0.7s linear, transform 1s ease-in-out, transform-origin 1s ease-in-out;
+  z-index: 0;
+}
 
+.cr-section .sticky-col .sticky-col-stack .cr-active {
+  transition: opacity 0.8s ease-in-out 0s, color 0.7s linear, transform 1s ease-in-out, transform-origin 1s ease-in-out;
+  z-index: 1;
+}
