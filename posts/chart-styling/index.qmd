@@ -571,13 +571,4 @@ There’s isn’t an easy, formulaic way of designing the best and most accessib
 
 :::
 
-```{ojs}
-allStickies = document.querySelectorAll('.scale-to-fill')
-
-allStickies.forEach(el => {
-  const id = el.id
-
-  el.style.opacity = (crActiveSticky === id) ? 1 : 0
-})
-```
 
