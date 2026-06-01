@@ -109,7 +109,7 @@ The default settings for chart software are not guaranteed to be accessible, and
 
 <br><br>
 
-*Scrollytelling visualisation by [Nicola Rennie](https://nrennie.rbind.io/).*
+*Scrollytelling adaptation of [blog post](https://nrennie.rbind.io/blog/accessible-line-chart/) by [Nicola Rennie](https://nrennie.rbind.io/).*
 
 :::
 
